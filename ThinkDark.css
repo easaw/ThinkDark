@@ -67,7 +67,7 @@ div.project-editor {
 }
 
 .phone-preview {
-    background: url(https://hertforddesign.uk/files/SmartphoneBezel_New_glow_x4.png) no-repeat;
+    background: url(https://github.com/easaw/ThinkDark/blob/master/SmartphoneBezel_New_glow_x4.png) no-repeat;
     background-size: contain;
     margin-top: 20px;
 }
@@ -443,7 +443,7 @@ div.title.designer-sidebar-title {
 }
 
 div a img {
-    content: url(https://hertforddesign.uk/files/thunk-nav-logo.png);
+    content: url(https://github.com/easaw/ThinkDark/blob/master/thunk-nav-logo.png);
 }
 
 .gallery-item:hover {
