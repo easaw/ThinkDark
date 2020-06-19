@@ -5,4 +5,4 @@ Pure CSS, to enhance and give a dark theme the Thunkable X Editor. Unofficial.
 
 ![ThinkDark v0.0.6](https://github.com/easaw/ThinkDark/blob/master/ThinkDark-Theme-Designer-View-v0.0.6.png)
 
-*Please see the license before editing or cloning [LICENSE](https://github.com/easaw/ThinkDark/blob/master/LICENSE)*
+*Please see the license before editing or reusing in your own project or, for example, cloning [LICENSE LINK](https://github.com/easaw/ThinkDark/blob/master/LICENSE)*
