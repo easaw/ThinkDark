@@ -232,17 +232,29 @@ div.project-nav-item a img {
     object-position: 0 -500px;
     background-size: contain;
 }
-.ant-popover-placement-right .ant-popover-inner, .ant-popover a {
+.ant-popover-placement-right .ant-popover-inner {
     background-color: #4E22BF;
     color: #fff !important;
 }
- .ant-dropdown-link button div {
+ .ant-popover a {
+    color: #fff !important;
+}
+button.ant-btn div {
     color: #240f57 !important;
 }
 ant-popover-arrow{
     border-color: transparent transparent #4E22BF #4E22BF;
 }
+.sketch-picker {
+    background-color: #150934 !important;
+}
+.sketch-picker span {
+    color: #fff !important;
+}
+.sketch-picker input {
+    color: #150934 !important;
+}
 /*	
-v0.1.25
-Changed arrows to purple
+v0.1.26
+Colour picker text & background updates
 */
