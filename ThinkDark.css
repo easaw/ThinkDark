@@ -92,7 +92,6 @@ ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934 !important;}
 .title-bar .tabs .tab{background-color:#150934 !important;color:#fff !important;border-color:#7A52E0 !important;}
 .title-bar .tabs .tab:hover{background-color:#401C9C !important;color:#fff !important;border-color:#713Df5 !important;}
 .gallery-item img:nth-child(2){border-radius:25px !important;}
-.title-bar .tab.active{background-color:#5F2FDA !important;color:#fff !important;border-color:#713Df5 !important;}
 .title-bar .tabs .tab.active:hover{background-color:#5F2FDA !important;}
 .gallery-item{border:1px solid #5F2FDA !important;margin-bottom:2px !important;margin-top:2px !important;background:#240f57 !important;box-shadow:0 3px 4px 2px #150934 !important;cursor:pointer !important;}
 .blocklyTreeRow:hover,.blocklyTreeLabel:hover{cursor:pointer !important;}
@@ -165,10 +164,10 @@ First commit
 .properties-selector .ant-tabs-tab-prev,.properties-selector .ant-tabs-tab-next{display:none !important;}
 .properties-selector div.ant-tabs-tab{border-bottom:1px solid #7A52E0 !important;margin:0 0 16px !important;}
 .properties-selector div.ant-tabs-tab-active.ant-tabs-tab{background-color:#444 !important;}
-.title-bar .tab.active{background-color:#5F2FDA !important;border-color:#713Df5 !important;color:#fff !important;}
 .title-bar .tabs .tab{background-color:#150934 !important;border-color:#7A52E0 !important;color:#fff !important;}
 .title-bar .tabs .tab.active:hover{background-color:#5F2FDA !important;}
 .title-bar .tabs .tab:hover{background-color:#401C9C !important;border-color:#713Df5 !important;color:#fff !important;}
+.title-bar .tab.active{background-color:#5F2FDA !important;color:#fff !important;border-color:#713Df5 !important;}
 .tree-node-children,.tree-title-children{border-left:2px solid #aaa !important;}
 .tree-node-item-wrapper{border-left:0 !important;border-right:0 !important;border-width:2px !important;}
 .tree-node-item-wrapper.active .tree-node-item{background-color:#4E22BF !important;}
@@ -255,6 +254,6 @@ ant-popover-arrow{
     color: #150934 !important;
 }
 /*	
-v0.1.26
-Colour picker text & background updates
+v0.1.27
+Move title bar CSS to increase importance
 */
