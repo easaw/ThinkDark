@@ -235,10 +235,7 @@ div.project-nav-item a img {
     background-color: #4E22BF;
     color: #fff !important;
 }
- .ant-popover a {
-    color: #fff !important;
-}
-button.ant-btn div {
+button.ant-btn div, button.ant-btn div div {
     color: #240f57 !important;
 }
 ant-popover-arrow{
@@ -247,13 +244,13 @@ ant-popover-arrow{
 .sketch-picker {
     background-color: #150934 !important;
 }
-.sketch-picker span {
+.sketch-picker span, .ant-popover a {
     color: #fff !important;
 }
 .sketch-picker input {
     color: #150934 !important;
 }
 /*	
-v0.1.27
-Move title bar CSS to increase importance
+v0.1.28
+Updated colour picker text styles
 */
