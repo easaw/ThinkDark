@@ -231,8 +231,11 @@ div.project-nav-item a img {
     object-position: 0 -500px;
     background-size: contain;
 }
-button.ant-btn div, button.ant-btn div div {
+button.ant-btn div {
     color: #240f57 !important;
+}
+button.ant-btn div div {
+    border: 1px solid #ccc;
 }
 .ant-popover-placement-bottom>.ant-popover-content>.ant-popover-arrow,
 .ant-popover-placement-bottomLeft>.ant-popover-content>.ant-popover-arrow,
@@ -245,7 +248,89 @@ button.ant-btn div, button.ant-btn div div {
 .sketch-picker span, .ant-popover a, .ant-popover-inner{
     color: #fff !important;
 }
+
+div.tree-title-children {
+    background-color: #240f57;
+}
+
+div.empty-text {
+    background-color: #240f57;
+    color: #ffffff;
+}
+
+button.ant-btn.action-icon.ant-btn-circle.ant-btn-icon-only {
+    background-color: #401C9C;
+    color: #ffffff;
+}
+
+button .ant-dropdown-link div div {
+}
+
+input.ant-input {
+    background-color: #150934;
+    color: #ffffff;
+}
+
+button.ant-btn {
+    background-color: #150934;
+    color: #ffffff;
+}
+
+button.ant-btn div {
+    color: #ffffff;
+}
+
+i.anticon.anticon-down svg {
+    color: #ffffff;
+}
+
+i.anticon.anticon-close-circle.reset-button svg {
+    color: #ffffff;
+    background-color: #150934;
+}
+
+.anticon.anticon-close-circle.reset-button svg {
+    fill: #fff;
+}
+
+div.ant-collapse-item {
+    background-color: #150934;
+    color: #ffffff;
+    border-style: none;
+}
+
+div.ant-collapse-header {
+    background-color: #150934;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+div.ant-collapse-item.ant-collapse-item {
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div.ant-collapse-content-box {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-style: solid;
+    border-color: #5F2FDA;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+span.ant-input-suffix {
+    color: #ffffff;
+}
 /*	
-v0.1.29
-Updated various background & text colours
+v0.1.30
+Multiple improvements.
 */
