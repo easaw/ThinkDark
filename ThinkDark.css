@@ -232,14 +232,17 @@ div.project-nav-item a img {
     object-position: 0 -500px;
     background-size: contain;
 }
-.ant-popover div, .ant-popover a {
+.ant-popover-placement-right .ant-popover-inner, .ant-popover a {
     background-color: #4E22BF;
     color: #fff !important;
 }
-.ant-form-item-children button div {
+ .ant-form-item-children button div {
     color: #240f57;
 }
+ant-popover-arrow{
+    border-color: transparent transparent #4E22BF #4E22BF;
+}
 /*	
-v0.1.23
-Corrected box text colour
+v0.1.24
+Changed arrows to purple
 */
