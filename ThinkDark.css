@@ -16,212 +16,217 @@ Colours:
 #5F2FDA
 #7A52E0
 #9574E7
-**/.blocklyDisabled path{fill:#777;}
-div.project-editor{background-color:#150934;overflow:auto;}
-.blocklyFlyoutBackground{fill:#240f57;fill-opacity:.7;}
-.blocklyFlyout{border-right:1px solid #5F2FDA;}
-.blocklyMainBackground{fill:#150934;stroke:none;}
-.blocklySvg{background-color:#000;}
-.blocklyToolboxDiv{background-color:#321579;color:#fff;border-right:1px solid #5F2FDA;box-shadow:5px 0 30px 5px #0E0623;z-index:2;}
-.blocklyTreeRow{line-height:19px;}
-.blocklyTreeRow:not(.blocklyTreeSelected):hover{background-color:#5F2FDA;}
-.blocklyTreeSelected .blocklyTreeLabel{color:#fff;font-weight:500;}
-.component-tree .caret{color:#cdac46;margin-left:2px;}
-.phone-preview{background:url(https://hertforddesign.uk/files/SmartphoneBezel_New_glow_x4.png) no-repeat;background-size:contain;margin-top:20px;}
-.phone-screen .preview-component{border-width:0;}
-.properties-selector div.ant-tabs-tab{margin:0 0 16px;border-bottom:1px solid #7A52E0;}
-.properties-panel .ant-tabs-nav .ant-tabs-tab{color:#eee;background-color:#321579;}
-.properties-panel .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active{background-color:#5F2FDA;color:#fff;}
-.properties-panel .property-component-name-container{padding-top:10px;padding-bottom:8px;border-bottom:none;background-color:transparent;}
-.properties-panel{border-left:1px solid #4E22BF;box-shadow:-5px 0 30px 5px #070311;z-index:2;}
-.designer div.designer-sidebar-container{border-right:1px solid #5F2FDA;box-shadow:5px 0 30px 5px #070311;z-index:2;}
-div.ant-tabs-tab:hover{color:#eee;background-color:#38188c;}
-.properties-selector div.ant-tabs-tab-active.ant-tabs-tab{background-color:#444;}
+**/.blocklyDisabled path{fill:#777 !important;}
+div.project-editor{background-color:#150934 !important;overflow:auto !important;}
+.blocklyFlyoutBackground{fill:#240f57 !important;fill-opacity:.7 !important;}
+.blocklyFlyout{border-right:1px solid #5F2FDA !important;}
+.blocklyMainBackground{fill:#150934 !important;stroke:none !important;}
+.blocklySvg{background-color:#000 !important;}
+.blocklyToolboxDiv{background-color:#321579 !important;color:#fff !important;border-right:1px solid #5F2FDA !important;box-shadow:5px 0 30px 5px #0E0623 !important;z-index:2 !important;}
+.blocklyTreeRow{line-height:19px !important;}
+.blocklyTreeRow:not(.blocklyTreeSelected):hover{background-color:#5F2FDA !important;}
+.blocklyTreeSelected .blocklyTreeLabel{color:#fff !important;font-weight:500 !important;}
+.component-tree .caret{color:#cdac46 !important;margin-left:2px !important;}
+.phone-preview{background:url(https://hertforddesign.uk/files/SmartphoneBezel_New_glow_x4.png) no-repeat !important;background-size:contain !important;margin-top:20px !important;}
+.phone-screen .preview-component{border-width:0 !important;}
+.properties-selector div.ant-tabs-tab{margin:0 0 16px !important;border-bottom:1px solid #7A52E0 !important;}
+.properties-panel .ant-tabs-nav .ant-tabs-tab{color:#eee !important;background-color:#321579 !important;}
+.properties-panel .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active{background-color:#5F2FDA !important;color:#fff !important;}
+.properties-panel .property-component-name-container{padding-top:10px !important;padding-bottom:8px !important;border-bottom:none !important;background-color:transparent !important;}
+.properties-panel{border-left:1px solid #4E22BF !important;box-shadow:-5px 0 30px 5px #070311 !important;z-index:2 !important;}
+.designer div.designer-sidebar-container{border-right:1px solid #5F2FDA !important;box-shadow:5px 0 30px 5px #070311 !important;z-index:2 !important;}
+div.ant-tabs-tab:hover{color:#eee !important;background-color:#38188c !important;}
+.properties-selector div.ant-tabs-tab-active.ant-tabs-tab{background-color:#444 !important;}
 /*
 v0.0.1
 Simple theme
-*/.tree-node-children,.tree-title-children{border-left:2px solid #aaa;}
-.tree-node-item-wrapper{border-left:0;border-right:0;border-width:2px;}
-.tree-node-item-wrapper.active img.view-icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg);}
-.tree-node-item-wrapper.active .tree-node-item{background-color:#4E22BF;}
-.tree-node-item-wrapper:active,.tree-node-item-wrapper:focus,.tree-node-item-wrapper:hover,.tree-node-item:hover{background-color:#321579;background-image:none;border:3px 0 solid #333;color:#fff;}
-div.ant-alert.ant-alert-error.ant-alert-banner.ant-alert-closable.banner{background-color:#222;color:#fff;}
-div.ant-col.ant-form-item-label{color:#fff;}
-div.ant-col.ant-form-item-label label{color:#fff;}
-div.ant-tabs-ink-bar{background-color:#9574E7;}
-div.ant-tabs-tab-active.ant-tabs-tab{background-color:#5F2FDA;color:#fff;}
-div.asset-tree-header.designer-sidebar-title{color:#fff;}
-div.banners{background-color:#222;}
-div.component-gallery-header{color:#fff;background-color:#150934;}
-div.component-gallery-panel{background-color:#150934;border-style:none;}
-div.designer{background-color:#150934;}
-div.designer-sidebar-container{background-color:#150934;color:#fff;}
-div.empty-text{color:#000;}
-div.gallery-item{color:#fff;}
-div.gallery-item-wrapper,.ant-menu-submenu,.ant-menu-sub,.ant-menu-item{background-color:transparent;}
-div.gallery-items{background-color:#240f57;border:none;}
-.gallery-items{width:auto;padding:5px;margin-left:0;margin-right:0;}
-div.invisible-component-bar{background-color:#240f57;border-bottom-width:1px;border-color:#5F2FDA;border-left-width:1px;border-right-width:1px;border-style:solid;border-top-width:1px;box-shadow:5px 0 30px 5px #070311;}
-.invisible-component-container:hover{background:#321579;border-radius:4px;padding:4px;border:1px solid #5F2FDA;cursor:pointer;}
-.invisible-component-container:hover .view-icon{filter:brightness(2000%);}
-.invisible-component-container:hover .view-icon[src="/static/media/viewIconFirebaseDB.124dd0d4.svg"]{filter:brightness(100%);}
-div.preview-container{background-color:#0E0623;}
-div.project-nav{background-color:#150934;}
-div.project-nav-item span{color:#fff;}
-div.project-nav-item.logo-item{background-color:#150934;}
-div.screen-tab-container{background-color:#1C0C46;}
-div.title-bar{background-color:#1C0C46;border:1px solid #401C9C;}
-div.title.designer-sidebar-title span{color:#fff;}
-div.tree-node-children-wrapper{background-color:#240f57;}
-div.tree-node-item-wrapper{background-color:#000;border-color:#303030;border-style:solid;border-top-width:0;color:#fff;}
-div.tree-node-item.project-settings{border-left-width:0;border-right-width:0;border-style:none;border-top-width:0;background-color:#150934;}
-div.tutorial-panel-container{background-color:#150934;}
-form.ant-form.ant-form-vertical.properties-panel{background-color:#240f57;color:#fff;}
-.properties-selector .ant-tabs-tab-prev,.properties-selector .ant-tabs-tab-next{display:none;}
-.properties-selector .ant-tabs-nav-container-scrolling{padding-right:0;padding-left:0;}
-i.anticon.anticon-ellipsis.resize-handle-ellipsis{background-color:#321579;color:#fff;border-top:1px solid #5F2FDA;border-bottom:1px solid #5F2FDA;}
-i.anticon.anticon-ellipsis.resize-handle-ellipsis:hover,i.anticon.anticon-ellipsis.resize-handle-ellipsis:active{background-color:#5F2FDA;-moz-box-shadow:0 0 8px 2px #5F2FDA;-webkit-box-shadow:0 0 8px 2px #5F2FDA;box-shadow:0 0 8px 2px #5F2FDA;z-index:50;}
-li.ant-menu-item.ant-menu-item-active{background-color:#000;border-style:none;}
+*/.tree-node-children,.tree-title-children{border-left:2px solid #aaa !important;}
+.tree-node-item-wrapper{border-left:0 !important;border-right:0 !important;border-width:2px !important;}
+.tree-node-item-wrapper.active img.view-icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) !important;}
+.tree-node-item-wrapper.active .tree-node-item{background-color:#4E22BF !important;}
+.tree-node-item-wrapper:active,.tree-node-item-wrapper:focus,.tree-node-item-wrapper:hover,.tree-node-item:hover{background-color:#321579 !important;background-image:none !important;border:3px 0 solid #333 !important;color:#fff !important;}
+div.ant-alert.ant-alert-error.ant-alert-banner.ant-alert-closable.banner{background-color:#222 !important;color:#fff !important;}
+div.ant-col.ant-form-item-label{color:#fff !important;}
+div.ant-col.ant-form-item-label label{color:#fff !important;}
+div.ant-tabs-ink-bar{background-color:#9574E7 !important;}
+div.ant-tabs-tab-active.ant-tabs-tab{background-color:#5F2FDA !important;color:#fff !important;}
+div.asset-tree-header.designer-sidebar-title{color:#fff !important;}
+div.banners{background-color:#222 !important;}
+div.component-gallery-header{color:#fff !important;background-color:#150934 !important;}
+div.component-gallery-panel{background-color:#150934 !important;border-style:none !important;}
+div.designer{background-color:#150934 !important;}
+div.designer-sidebar-container{background-color:#150934 !important;color:#fff !important;}
+div.empty-text{color:#000 !important;}
+div.gallery-item{color:#fff !important;}
+div.gallery-item-wrapper,.ant-menu-submenu,.ant-menu-sub,.ant-menu-item{background-color:transparent !important;}
+div.gallery-items{background-color:#240f57 !important;border:none !important;}
+.gallery-items{width:auto !important;padding:5px !important;margin-left:0 !important;margin-right:0 !important;}
+div.invisible-component-bar{background-color:#240f57 !important;border-bottom-width:1px !important;border-color:#5F2FDA !important;border-left-width:1px !important;border-right-width:1px !important;border-style:solid !important;border-top-width:1px !important;box-shadow:5px 0 30px 5px #070311 !important;}
+.invisible-component-container:hover{background:#321579 !important;border-radius:4px !important;padding:4px !important;border:1px solid #5F2FDA !important;cursor:pointer !important;}
+.invisible-component-container:hover .view-icon{filter:brightness(2000%) !important;}
+.invisible-component-container:hover .view-icon[src="/static/media/viewIconFirebaseDB.124dd0d4.svg"]{filter:brightness(100%) !important;}
+div.preview-container{background-color:#0E0623 !important;}
+div.project-nav{background-color:#150934 !important;}
+div.project-nav-item span{color:#fff !important;}
+div.project-nav-item.logo-item{background-color:#150934 !important;}
+div.screen-tab-container{background-color:#1C0C46 !important;}
+div.title-bar{background-color:#1C0C46 !important;border:1px solid #401C9C !important;}
+div.title.designer-sidebar-title span{color:#fff !important;}
+div.tree-node-children-wrapper{background-color:#240f57 !important;}
+div.tree-node-item-wrapper{background-color:#000 !important;border-color:#303030 !important;border-style:solid !important;border-top-width:0 !important;color:#fff !important;}
+div.tree-node-item.project-settings{border-left-width:0 !important;border-right-width:0 !important;border-style:none !important;border-top-width:0 !important;background-color:#150934 !important;}
+div.tutorial-panel-container{background-color:#150934 !important;}
+form.ant-form.ant-form-vertical.properties-panel{background-color:#240f57 !important;color:#fff !important;}
+.properties-selector .ant-tabs-tab-prev,.properties-selector .ant-tabs-tab-next{display:none !important;}
+.properties-selector .ant-tabs-nav-container-scrolling{padding-right:0 !important;padding-left:0 !important;}
+i.anticon.anticon-ellipsis.resize-handle-ellipsis{background-color:#321579 !important;color:#fff !important;border-top:1px solid #5F2FDA !important;border-bottom:1px solid #5F2FDA !important;}
+i.anticon.anticon-ellipsis.resize-handle-ellipsis:hover,i.anticon.anticon-ellipsis.resize-handle-ellipsis:active{background-color:#5F2FDA !important;-moz-box-shadow:0 0 8px 2px #5F2FDA !important;-webkit-box-shadow:0 0 8px 2px #5F2FDA !important;box-shadow:0 0 8px 2px #5F2FDA !important;z-index:50 !important;}
+li.ant-menu-item.ant-menu-item-active{background-color:#000 !important;border-style:none !important;}
 html{}
-rect.blocklyMainBackground{background-color:#000;}
-span.ant-alert-message div{color:#fff;}
-span.invisible-component-name{color:#fff;}
-span.properties-component-label{color:#fff;}
-ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline{background-color:#150934;border-style:none;}
-ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934;}
-.title-bar .tabs .tab{background-color:#150934;color:#fff;border-color:#7A52E0;}
-.title-bar .tabs .tab:hover{background-color:#401C9C;color:#fff;border-color:#713Df5;}
-.gallery-item img:nth-child(2){border-radius:25px;}
-.title-bar .tab.active{background-color:#5F2FDA;color:#fff;border-color:#713Df5;}
-.title-bar .tabs .tab.active:hover{background-color:#5F2FDA;}
-.gallery-item{border:1px solid #5F2FDA;margin-bottom:2px;margin-top:2px;background:#240f57;box-shadow:0 3px 4px 2px #150934;cursor:pointer;}
-.blocklyTreeRow:hover,.blocklyTreeLabel:hover{cursor:pointer;}
-.new-screen-button:hover{box-shadow:0 0 8px 2px #5F2FDA;background:#5F2FDA;border:1px solid #5F2FDA;}
-.new-screen-button{box-shadow:0 0 6px 1px #150934;border:1px solid #5F2FDA;background:#240f57;}
-.anticon.anticon-plus svg{fill:#FFF;}
-.gallery-item:hover .icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg);}
-.ant-tabs-tab-prev-icon-target svg,.ant-tabs-tab-next-icon-target svg{fill:#fff;font-size:16px;margin-top:8px;font-weight:700;width:1.2em;height:1.2em;}
-.ant-menu-inline .ant-menu-item:after,.ant-menu-vertical-left .ant-menu-item:after,.ant-menu-vertical-right .ant-menu-item:after,.ant-menu-vertical .ant-menu-item:after{border-right:none;}
-div.title.designer-sidebar-title{background-color:#150934;color:#fff;}
-div a img{content:url(https://hertforddesign.uk/files/thunk-nav-logo.png);}
-.gallery-item:hover{box-shadow:0 0 8px 3px #5F2FDA;background:#5F2FDA;border:1px solid #5F2FDA;}
-.ant-menu-sub.ant-menu-inline>.ant-menu-item{background-color:#240f57;}
-div.ant-menu-submenu-title{background-color:#321579;color:#fff;border:1px solid #5F2FDA;border-bottom:1px solid #5F2FDA;}
-.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:before{background:#9574E7;}
-.ant-menu-submenu-inline .ant-menu-submenu-title{margin:5px 0 0;transform:scale(0.95);transition:.1s ease-in-out;}
-.ant-menu-submenu-active .ant-menu-submenu-title,.ant-menu-submenu-open .ant-menu-submenu-title{margin-top:5px;transform:scale(1);transition:.1s ease-in-out;}
-.ant-tabs-nav .ant-tabs-tab{margin:0 16px;}
+rect.blocklyMainBackground{background-color:#000 !important;}
+span.ant-alert-message div{color:#fff !important;}
+span.invisible-component-name{color:#fff !important;}
+span.properties-component-label{color:#fff !important;}
+ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline{background-color:#150934 !important;border-style:none !important;}
+ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934 !important;}
+.title-bar .tabs .tab{background-color:#150934 !important;color:#fff !important;border-color:#7A52E0 !important;}
+.title-bar .tabs .tab:hover{background-color:#401C9C !important;color:#fff !important;border-color:#713Df5 !important;}
+.gallery-item img:nth-child(2){border-radius:25px !important;}
+.title-bar .tab.active{background-color:#5F2FDA !important;color:#fff !important;border-color:#713Df5 !important;}
+.title-bar .tabs .tab.active:hover{background-color:#5F2FDA !important;}
+.gallery-item{border:1px solid #5F2FDA !important;margin-bottom:2px !important;margin-top:2px !important;background:#240f57 !important;box-shadow:0 3px 4px 2px #150934 !important;cursor:pointer !important;}
+.blocklyTreeRow:hover,.blocklyTreeLabel:hover{cursor:pointer !important;}
+.new-screen-button:hover{box-shadow:0 0 8px 2px #5F2FDA !important;background:#5F2FDA !important;border:1px solid #5F2FDA !important;}
+.new-screen-button{box-shadow:0 0 6px 1px #150934 !important;border:1px solid #5F2FDA !important;background:#240f57 !important;}
+.anticon.anticon-plus svg{fill:#FFF !important;}
+.gallery-item:hover .icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) !important;}
+.ant-tabs-tab-prev-icon-target svg,.ant-tabs-tab-next-icon-target svg{fill:#fff !important;font-size:16px !important;margin-top:8px !important;font-weight:700 !important;width:1.2em !important;height:1.2em !important;}
+.ant-menu-inline .ant-menu-item:after,.ant-menu-vertical-left .ant-menu-item:after,.ant-menu-vertical-right .ant-menu-item:after,.ant-menu-vertical .ant-menu-item:after{border-right:none !important;}
+div.title.designer-sidebar-title{background-color:#150934 !important;color:#fff !important;}
+div a img{content:url(https://hertforddesign.uk/files/thunk-nav-logo.png) !important;}
+.gallery-item:hover{box-shadow:0 0 8px 3px #5F2FDA !important;background:#5F2FDA !important;border:1px solid #5F2FDA !important;}
+.ant-menu-sub.ant-menu-inline>.ant-menu-item{background-color:#240f57 !important;}
+.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:before{background:#9574E7  !important;}
+.ant-menu-submenu-inline .ant-menu-submenu-title{margin:5px 0 0 !important;transform:scale(0.95) !important;transition:.1s ease-in-out !important;}
+.ant-menu-submenu-active .ant-menu-submenu-title,.ant-menu-submenu-open .ant-menu-submenu-title{margin-top:5px !important;transform:scale(1) !important;transition:.1s ease-in-out !important;}
+.ant-tabs-nav .ant-tabs-tab{margin:0 16px !important;}
 /*
 v0.0.2
-*/ul::-webkit-scrollbar,div::-webkit-scrollbar{display:none;background-color:#150934;}
-div,ul,nav,body{-ms-overflow-style:none;}
-.ant-select-focused .ant-select-selection,.ant-select-selection:active,.ant-select-selection:focus{border-color:#5F2FDA;box-shadow:0 0 8px 2px #7A52E0;}
-.ant-select-selection{background:#321579;color:#fff;border:1px solid #7A52E0;}
-.component-gallery-panel .ant-menu-submenu-title{border-bottom:1px solid #5F2FDA;}
+*/ul::-webkit-scrollbar,div::-webkit-scrollbar{display:none !important;background-color:#150934 !important;}
+div,ul,nav,body{-ms-overflow-style:none !important;}
+.ant-select-focused .ant-select-selection,.ant-select-selection:active,.ant-select-selection:focus{border-color:#5F2FDA !important;box-shadow:0 0 8px 2px #7A52E0 !important;}
+.ant-select-selection{background:#321579 !important;color:#fff !important;border:1px solid #7A52E0 !important;}
+.component-gallery-panel .ant-menu-submenu-title{border-bottom:1px solid #5F2FDA !important;}
 /*
 v0.0.3
 First commit
-*/.ant-collapse-content.ant-collapse-content-active{background-color:#240f57;}
-.ant-form-item-children div{color:#FFF;}
-.ant-menu-inline .ant-menu-item:after,.ant-menu-vertical-left .ant-menu-item:after,.ant-menu-vertical-right .ant-menu-item:after,.ant-menu-vertical .ant-menu-item:after{border-right:none;}
-.ant-menu-sub.ant-menu-inline>.ant-menu-item{background-color:#240f57;}
-.ant-menu-submenu-active .ant-menu-submenu-title,.ant-menu-submenu-open .ant-menu-submenu-title{margin-top:5px;transition:.1s ease-in-out;}
-.ant-menu-submenu-inline .ant-menu-submenu-title{margin:5px 0 0;transition:.1s ease-in-out;}
-.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:before{background:#9574E7;}
-.ant-select-focused .ant-select-selection,.ant-select-selection:active,.ant-select-selection:focus{border-color:#5F2FDA;box-shadow:0 0 8px 2px #7A52E0;}
-.ant-select-selection{background:#321579;border:1px solid #7A52E0;color:#fff;}
-.ant-tabs-nav .ant-tabs-tab{margin:0 16px;}
-.ant-tabs-tab-prev-icon-target svg,.ant-tabs-tab-next-icon-target svg{fill:#fff;font-size:16px;font-weight:700;height:1.2em;margin-top:8px;width:1.2em;}
-.anticon.anticon-plus svg{fill:#FFF;}
-.blocklyDisabled path{fill:#777;}
-.blocklyFlyout{border-right:1px solid #5F2FDA;}
-.blocklyFlyoutBackground{fill:#240f57;fill-opacity:.7;}
-.blocklyMainBackground{fill:#150934;stroke:none;}
-.blocklySvg{background-color:#000;}
-.blocklyToolboxDiv{background-color:#321579;border-right:1px solid #5F2FDA;box-shadow:5px 0 30px 5px #0E0623;color:#fff;z-index:2;}
-.blocklyTreeRow{line-height:19px;}
-.blocklyTreeRow:hover,.blocklyTreeLabel:hover{cursor:pointer;}
-.blocklyTreeRow:not(.blocklyTreeSelected):hover{background-color:#5F2FDA;}
-.blocklyTreeSelected .blocklyTreeLabel{color:#fff;font-weight:500;}
-.component-gallery-panel .ant-menu-submenu-title{border-bottom:1px solid #5F2FDA;}
-.component-tree .caret{color:#cdac46;margin-left:2px;}
-.designer div.designer-sidebar-container{border-right:1px solid #5F2FDA;box-shadow:5px 0 30px 5px #070311;z-index:2;}
-.gallery-item{background:#240f57;border:1px solid #5F2FDA;box-shadow:0 3px 4px 2px #150934;cursor:pointer;margin-bottom:2px;margin-top:2px;}
-.gallery-item img:nth-child(2){border-radius:25px;}
-.gallery-item:hover{background:#5F2FDA;border:1px solid #5F2FDA;box-shadow:0 0 8px 3px #5F2FDA;}
-.gallery-item:hover .icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg);}
-.gallery-items{margin-left:0;margin-right:0;padding:10px 5px;width:auto;}
-.invisible-component-container{background:transparent;border:1px solid transparent;border-radius:4px;padding:4px;}
-.invisible-component-container:hover{background:#321579;border:1px solid #5F2FDA;border-radius:4px;cursor:pointer;padding:4px;}
-.invisible-component-container:hover .view-icon{filter:brightness(200%);}
-.invisible-component-container:hover .view-icon[src="https://x.thunkable.com/static/media/viewIconFirebaseDB.124dd0d4.svg"]{filter:brightness(200%);}
-.new-screen-button{background:#240f57;border:1px solid #5F2FDA;box-shadow:0 0 6px 1px #150934;}
-.new-screen-button:hover{background:#5F2FDA;border:1px solid #5F2FDA;box-shadow:0 0 8px 2px #5F2FDA;}
-.phone-preview{background:url(https://hertforddesign.uk/files/SmartphoneBezel_New_glow_x4.png) no-repeat;background-size:contain;margin-top:20px;}
-.properties-panel{border-left:1px solid #4E22BF;box-shadow:-5px 0 30px 5px #070311;z-index:2;}
-.properties-panel .ant-tabs-nav .ant-tabs-tab{background-color:#321579;color:#eee;}
-.properties-panel .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active{background-color:#5F2FDA;color:#fff;}
-.properties-panel .property-component-name-container{background-color:transparent;border-bottom:none;padding-bottom:8px;padding-top:10px;}
-.properties-selector .ant-tabs-nav-container-scrolling{padding-left:0;padding-right:0;}
-.properties-selector .ant-tabs-tab-prev,.properties-selector .ant-tabs-tab-next{display:none;}
-.properties-selector div.ant-tabs-tab{border-bottom:1px solid #7A52E0;margin:0 0 16px;}
-.properties-selector div.ant-tabs-tab-active.ant-tabs-tab{background-color:#444;}
-.title-bar .tab.active{background-color:#5F2FDA;border-color:#713Df5;color:#fff;}
-.title-bar .tabs .tab{background-color:#150934;border-color:#7A52E0;color:#fff;}
-.title-bar .tabs .tab.active:hover{background-color:#5F2FDA;}
-.title-bar .tabs .tab:hover{background-color:#401C9C;border-color:#713Df5;color:#fff;}
-.tree-node-children,.tree-title-children{border-left:2px solid #aaa;}
-.tree-node-item-wrapper{border-left:0;border-right:0;border-width:2px;}
-.tree-node-item-wrapper.active .tree-node-item{background-color:#4E22BF;}
-.tree-node-item-wrapper.active img.view-icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg);}
-.tree-node-item-wrapper:active,.tree-node-item-wrapper:focus,.tree-node-item-wrapper:hover,.tree-node-item:hover{background-color:#321579;background-image:none;border:3px 0 solid #333;color:#fff;}
-.tree-node-item.project-settings{border-radius:0;}
-div,ul,nav,body{-ms-overflow-style:none;}
-div.ant-alert.ant-alert-error.ant-alert-banner.ant-alert-closable.banner{background-color:#222;color:#fff;}
-div.ant-col.ant-form-item-label{color:#fff;}
-div.ant-col.ant-form-item-label label{color:#fff;}
-div.ant-menu-submenu-title{background-color:#321579;border:1px solid #5F2FDA;border-bottom:1px solid #5F2FDA;color:#fff;}
-div.ant-tabs-ink-bar{background-color:#9574E7;}
-div.ant-tabs-tab-active.ant-tabs-tab{background-color:#5F2FDA;color:#fff;}
-div.ant-tabs-tab:hover{background-color:#38188c;color:#eee;}
-div.asset-tree-header.designer-sidebar-title{color:#fff;}
-div.banners{background-color:#222;}
-div.component-gallery-header{background-color:#150934;color:#fff;}
-div.component-gallery-panel{background-color:#150934;border-style:none;padding:5px 10px;}
-div.designer{background-color:#150934;}
-div.designer-sidebar-container{background-color:#150934;color:#fff;}
-div.empty-text{color:#000;}
-div.gallery-item{color:#fff;}
-div.gallery-item-wrapper,.ant-menu-submenu,.ant-menu-sub,.ant-menu-item{background-color:transparent;}
-div.gallery-items{background-color:#240f57;border:none;}
-div.invisible-component-bar{background-color:#240f57;border-bottom-width:1px;border-color:#5F2FDA;border-left-width:1px;border-right-width:1px;border-style:solid;border-top-width:1px;box-shadow:5px 0 30px 5px #070311;}
-div.preview-container{background-color:#0E0623;}
-div.project-editor{background-color:#150934;overflow:auto;}
-div.project-nav{background-color:#150934;}
-div.project-nav .banners{background-color:#0E0623;}
-div.project-nav-item a img{content:url(https://hertforddesign.uk/files/thunk-nav-logo.png);}
-div.project-nav-item span{color:#fff;}
-div.project-nav-item.logo-item{background-color:#150934;}
-div.screen-tab-container{background-color:#1C0C46;}
-div.title-bar{background-color:#1C0C46;border:1px solid #401C9C;}
-div.title.designer-sidebar-title{background-color:#150934;color:#fff;}
-div.title.designer-sidebar-title span{color:#fff;}
-div.tree-node-children-wrapper{background-color:#240f57;}
-div.tree-node-item-wrapper{background-color:#000;border-color:#303030;border-style:solid;border-top-width:0;color:#fff;}
-div.tree-node-item.project-settings{background-color:#150934;border-left-width:0;border-right-width:0;border-style:none;border-top-width:0;}
-div.tutorial-panel-container{background-color:#150934;}
-form.ant-form.ant-form-vertical.properties-panel{background-color:#240f57;color:#fff;}
-i.anticon.anticon-ellipsis.resize-handle-ellipsis{background-color:#321579;border-bottom:1px solid #5F2FDA;border-top:1px solid #5F2FDA;color:#fff;}
-i.anticon.anticon-ellipsis.resize-handle-ellipsis:hover,i.anticon.anticon-ellipsis.resize-handle-ellipsis:active{-moz-box-shadow:0 0 8px 2px #5F2FDA;-webkit-box-shadow:0 0 8px 2px #5F2FDA;background-color:#5F2FDA;box-shadow:0 0 8px 2px #5F2FDA;z-index:50;}
-li.ant-menu-item.ant-menu-item-active{background-color:#000;border-style:none;}
-rect.blocklyMainBackground{background-color:#000;}
-span.ant-alert-message div{color:#fff;}
-span.invisible-component-name{color:#fff;}
-span.properties-component-label{color:#fff;}
-ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline{background-color:#150934;border-style:none;}
-ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934;margin-left:0;width:315px;}
-ul::-webkit-scrollbar,div::-webkit-scrollbar{background-color:#150934;display:none;}
+*/.ant-collapse-content.ant-collapse-content-active{background-color:#240f57 !important;}
+.ant-form-item-children div{color:#FFF !important;}
+.ant-menu-inline .ant-menu-item:after,.ant-menu-vertical-left .ant-menu-item:after,.ant-menu-vertical-right .ant-menu-item:after,.ant-menu-vertical .ant-menu-item:after{border-right:none !important;}
+.ant-menu-sub.ant-menu-inline>.ant-menu-item{background-color:#240f57 !important;}
+.ant-menu-submenu-active .ant-menu-submenu-title,.ant-menu-submenu-open .ant-menu-submenu-title{margin-top:5px !important;transition:.1s ease-in-out !important;}
+.ant-menu-submenu-inline .ant-menu-submenu-title{margin:5px 0 0 !important;transition:.1s ease-in-out !important;}
+.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:before{background:#9574E7 !important;}
+.ant-select-focused .ant-select-selection,.ant-select-selection:active,.ant-select-selection:focus{border-color:#5F2FDA !important;box-shadow:0 0 8px 2px #7A52E0 !important;}
+.ant-select-selection{background:#321579 !important;border:1px solid #7A52E0 !important;color:#fff !important;}
+.ant-tabs-nav .ant-tabs-tab{margin:0 16px !important;}
+.ant-tabs-tab-prev-icon-target svg,.ant-tabs-tab-next-icon-target svg{fill:#fff !important;font-size:16px !important;font-weight:700 !important;height:1.2em !important;margin-top:8px !important;width:1.2em !important;}
+.anticon.anticon-plus svg{fill:#FFF !important;}
+.blocklyDisabled path{fill:#777 !important;}
+.blocklyFlyout{border-right:1px solid #5F2FDA !important;}
+.blocklyFlyoutBackground{fill:#240f57 !important;fill-opacity:.7 !important;}
+.blocklyMainBackground{fill:#150934 !important;stroke:none !important;}
+.blocklySvg{background-color:#000 !important;}
+.blocklyToolboxDiv{background-color:#321579 !important;border-right:1px solid #5F2FDA !important;box-shadow:5px 0 30px 5px #0E0623 !important;color:#fff !important;z-index:2 !important;}
+.blocklyTreeRow{line-height:19px !important;}
+.blocklyTreeRow:hover,.blocklyTreeLabel:hover{cursor:pointer !important;}
+.blocklyTreeRow:not(.blocklyTreeSelected):hover{background-color:#5F2FDA !important;}
+.blocklyTreeSelected .blocklyTreeLabel{color:#fff !important;font-weight:500 !important;}
+.component-gallery-panel .ant-menu-submenu-title{border-bottom:1px solid #5F2FDA  !important;}
+.component-tree .caret{color:#cdac46 !important;margin-left:2px !important;}
+.designer div.designer-sidebar-container{border-right:1px solid #5F2FDA !important;box-shadow:5px 0 30px 5px #070311 !important;z-index:2 !important;}
+.gallery-item{background:#240f57 !important;border:1px solid #5F2FDA !important;box-shadow:0 3px 4px 2px #150934 !important;cursor:pointer !important;margin-bottom:2px !important;margin-top:2px !important;}
+.gallery-item img:nth-child(2){border-radius:25px !important;}
+.gallery-item:hover{background:#5F2FDA !important;border:1px solid #5F2FDA !important;box-shadow:0 0 8px 3px #5F2FDA !important;}
+.gallery-item:hover .icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) !important;}
+.gallery-items{margin-left:0 !important;margin-right:0 !important;padding:10px 5px !important;width:auto !important;}
+.invisible-component-container{background:transparent !important;border:1px solid transparent !important;border-radius:4px !important;padding:4px !important;}
+.invisible-component-container:hover{background:#321579 !important;border:1px solid #5F2FDA !important;border-radius:4px !important;cursor:pointer !important;padding:4px !important;}
+.invisible-component-container:hover .view-icon{filter:brightness(200%) !important;}
+.invisible-component-container:hover .view-icon[src="https://x.thunkable.com/static/media/viewIconFirebaseDB.124dd0d4.svg"]{filter:brightness(200%) !important;}
+.new-screen-button{background:#240f57 !important;border:1px solid #5F2FDA !important;box-shadow:0 0 6px 1px #150934 !important;}
+.new-screen-button:hover{background:#5F2FDA !important;border:1px solid #5F2FDA !important;box-shadow:0 0 8px 2px #5F2FDA !important;}
+.phone-preview{background:url(https://hertforddesign.uk/files/SmartphoneBezel_New_glow_x4.png) no-repeat !important;background-size:contain !important;margin-top:20px !important;}
+.properties-panel{border-left:1px solid #4E22BF !important;box-shadow:-5px 0 30px 5px #070311 !important;z-index:2 !important;}
+.properties-panel .ant-tabs-nav .ant-tabs-tab{background-color:#321579 !important;color:#eee !important;}
+.properties-panel .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active{background-color:#5F2FDA !important;color:#fff !important;}
+.properties-panel .property-component-name-container{background-color:transparent !important;border-bottom:none !important;padding-bottom:8px !important;padding-top:10px !important;}
+.properties-selector .ant-tabs-nav-container-scrolling{padding-left:0 !important;padding-right:0 !important;}
+.properties-selector .ant-tabs-tab-prev,.properties-selector .ant-tabs-tab-next{display:none !important;}
+.properties-selector div.ant-tabs-tab{border-bottom:1px solid #7A52E0 !important;margin:0 0 16px !important;}
+.properties-selector div.ant-tabs-tab-active.ant-tabs-tab{background-color:#444 !important;}
+.title-bar .tab.active{background-color:#5F2FDA !important;border-color:#713Df5 !important;color:#fff !important;}
+.title-bar .tabs .tab{background-color:#150934 !important;border-color:#7A52E0 !important;color:#fff !important;}
+.title-bar .tabs .tab.active:hover{background-color:#5F2FDA !important;}
+.title-bar .tabs .tab:hover{background-color:#401C9C !important;border-color:#713Df5 !important;color:#fff !important;}
+.tree-node-children,.tree-title-children{border-left:2px solid #aaa !important;}
+.tree-node-item-wrapper{border-left:0 !important;border-right:0 !important;border-width:2px !important;}
+.tree-node-item-wrapper.active .tree-node-item{background-color:#4E22BF !important;}
+.tree-node-item-wrapper.active img.view-icon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) !important;}
+.tree-node-item-wrapper:active,.tree-node-item-wrapper:focus,.tree-node-item-wrapper:hover,.tree-node-item:hover{background-color:#321579 !important;background-image:none !important;border:3px 0 solid #333 !important;color:#fff !important;}
+.tree-node-item.project-settings{border-radius:0 !important;}
+div,ul,nav,body{-ms-overflow-style:none !important;}
+div.ant-alert.ant-alert-error.ant-alert-banner.ant-alert-closable.banner{background-color:#222 !important;color:#fff !important;}
+div.ant-col.ant-form-item-label{color:#fff !important;}
+div.ant-col.ant-form-item-label label{color:#fff !important;}
+.component-gallery-panel .ant-menu-submenu-title{background-color:#321579  !important;border:1px solid #5F2FDA  !important;border-bottom:1px solid #5F2FDA  !important;color:#fff  !important;}
+div.ant-tabs-ink-bar{background-color:#9574E7 !important;}
+div.ant-tabs-tab-active.ant-tabs-tab{background-color:#5F2FDA !important;color:#fff !important;}
+div.ant-tabs-tab:hover{background-color:#38188c !important;color:#eee !important;}
+div.asset-tree-header.designer-sidebar-title{color:#fff !important;}
+div.banners{background-color:#222 !important;}
+div.component-gallery-header{background-color:#150934 !important;color:#fff !important;}
+div.component-gallery-panel{background-color:#150934 !important;border-style:none !important;padding:5px 10px !important;}
+div.designer{background-color:#150934 !important;}
+div.designer-sidebar-container{background-color:#150934 !important;color:#fff !important;}
+div.empty-text{color:#000 !important;}
+div.gallery-item{color:#fff !important;}
+div.gallery-item-wrapper,.ant-menu-submenu,.ant-menu-sub,.ant-menu-item{background-color:transparent !important;}
+div.gallery-items{background-color:#240f57 !important;border:none !important;}
+div.invisible-component-bar{background-color:#240f57 !important;border-bottom-width:1px !important;border-color:#5F2FDA !important;border-left-width:1px !important;border-right-width:1px !important;border-style:solid !important;border-top-width:1px !important;box-shadow:5px 0 30px 5px #070311 !important;}
+div.preview-container{background-color:#0E0623 !important;}
+div.project-editor{background-color:#150934 !important;overflow:auto !important;}
+div.project-nav{background-color:#150934 !important;}
+div.project-nav .banners{background-color:#0E0623 !important;}
+div.project-nav-item a img{content:url(https://hertforddesign.uk/files/thunk-nav-logo.png) !important;}
+div.project-nav-item span{color:#fff !important;}
+div.project-nav-item.logo-item{background-color:#150934 !important;}
+div.screen-tab-container{background-color:#1C0C46 !important;}
+div.title-bar{background-color:#1C0C46 !important;border:1px solid #401C9C !important;}
+div.title.designer-sidebar-title{background-color:#150934 !important;color:#fff !important;}
+div.title.designer-sidebar-title span{color:#fff !important;}
+div.tree-node-children-wrapper{background-color:#240f57 !important;}
+div.tree-node-item-wrapper{background-color:#000 !important;border-color:#303030 !important;border-style:solid !important;border-top-width:0 !important;color:#fff !important;}
+div.tree-node-item.project-settings{background-color:#150934 !important;border-left-width:0 !important;border-right-width:0 !important;border-style:none !important;border-top-width:0 !important;}
+div.tutorial-panel-container{background-color:#150934 !important;}
+form.ant-form.ant-form-vertical.properties-panel{background-color:#240f57 !important;color:#fff !important;}
+i.anticon.anticon-ellipsis.resize-handle-ellipsis{background-color:#321579 !important;border-bottom:1px solid #5F2FDA !important;border-top:1px solid #5F2FDA !important;color:#fff !important;}
+i.anticon.anticon-ellipsis.resize-handle-ellipsis:hover,i.anticon.anticon-ellipsis.resize-handle-ellipsis:active{-moz-box-shadow:0 0 8px 2px #5F2FDA !important;-webkit-box-shadow:0 0 8px 2px #5F2FDA !important;background-color:#5F2FDA !important;box-shadow:0 0 8px 2px #5F2FDA !important;z-index:50 !important;}
+li.ant-menu-item.ant-menu-item-active{background-color:#000 !important;border-style:none !important;}
+rect.blocklyMainBackground{background-color:#000 !important;}
+span.ant-alert-message div{color:#fff !important;}
+span.invisible-component-name{color:#fff !important;}
+span.properties-component-label{color:#fff !important;}
+ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline{background-color:#150934 !important;border-style:none !important;}
+ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934 !important;margin-left:0 !important;width:315px !important;}
+ul::-webkit-scrollbar,div::-webkit-scrollbar{background-color:#150934 !important;display:none !important;}
+.ant-menu-submenu-title {
+    background-color: #321579  !important;
+    border: 1px solid #5F2FDA  !important;
+    border-bottom: 1px solid #5F2FDA  !important;
+    color: #fff  !important;
+}
 /*	
-v0.0.7
-With new phone preview & duplicate CSS
+v0.1.17
+Added !important
 */
