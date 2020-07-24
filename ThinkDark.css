@@ -219,7 +219,7 @@ span.invisible-component-name{color:#fff !important;}
 span.properties-component-label{color:#fff !important;}
 ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline{background-color:#150934 !important;border-style:none !important;}
 ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934 !important;margin-left:0 !important;width:315px !important;}
-ul::-webkit-scrollbar,div::-webkit-scrollbar{background-color:#150934 !important;display:none !important;}
+ul::-webkit-scrollbar,div::-webkit-scrollbar,form::-webkit-scrollbar{background-color:#150934 !important;display:none !important;}
 .ant-menu-submenu-title {
     background-color: #321579  !important;
     border: 1px solid #5F2FDA  !important;
