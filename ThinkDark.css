@@ -236,13 +236,13 @@ div.project-nav-item a img {
     background-color: #4E22BF;
     color: #fff !important;
 }
- .ant-form-item-children button div {
-    color: #240f57;
+ .ant-dropdown-link button div {
+    color: #240f57 !important;
 }
 ant-popover-arrow{
     border-color: transparent transparent #4E22BF #4E22BF;
 }
 /*	
-v0.1.24
+v0.1.25
 Changed arrows to purple
 */
