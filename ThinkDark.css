@@ -1,15 +1,12 @@
 /**
 IF YOU HAVE ANY ISSUES PLEASE CREATE AN ISSUE ON GITHUB: https://github.com/easaw/ThinkDark/issues
-
 1) This theme is to be used with a CSS extension for your Browser. It should only be applied to x.thukable.com/projects/*
 2) This code may be editied but please do not share it on the Thunkable community, please use the instructions on https://github.com/easaw/ThinkDark so everyone has the latest version.
 3) This is the Purple version of ThinkDark for Thunk.
 4) This code only contains CSS. No PHP or malicious code is included.
 5) This CSS may not be included in other projects, including Thunkable X itself, without written permission from https://github.com/easaw/
-
 No details of your project can be seen by the Stylebot Chrome Extension, that has it's own terms and conditions. Stylebot only processes CSS (it should not process JavaScript).
 This CSS is provided with no warranty whatsoever and is not guaranteed to fully work at any time.
-
 Colours:
 #150934
 #240f57
@@ -20,6 +17,511 @@ Colours:
 #7A52E0
 #9574E7
 **/
+
+
+.blocklyDisabled path {
+    fill: #777;
+}
+
+div.project-editor {
+    background-color: #150934;
+    overflow: auto;
+}
+
+.blocklyFlyoutBackground {
+    fill: #240f57;
+    fill-opacity: .7;
+}
+
+.blocklyFlyout {
+    border-right: 1px solid #5F2FDA;
+}
+
+.blocklyMainBackground {
+    fill: #150934 ;
+    stroke: none;
+}
+
+.blocklySvg {
+    background-color: #000 ;
+}
+
+.blocklyToolboxDiv {
+    background-color: #321579 ;
+    color: #fff ;
+    border-right: 1px solid #5F2FDA;
+    box-shadow: 5px 0 30px 5px  #0E0623;
+    z-index: 2;
+}
+
+.blocklyTreeRow {
+    line-height: 19px;
+}
+
+.blocklyTreeRow:not(.blocklyTreeSelected):hover {
+    background-color: #5F2FDA ;
+}
+
+.blocklyTreeSelected .blocklyTreeLabel {
+    color: #fff ;
+    font-weight: 500;
+}
+
+.component-tree .caret {
+    color: #cdac46;
+    margin-left: 2px;
+}
+
+.phone-preview {
+    background: url(https://hertforddesign.uk/files/SmartphoneBezel_New_glow_x4.png) no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.phone-screen .preview-component {
+    border-width: 0;
+}
+
+.properties-selector div.ant-tabs-tab {
+    margin: 0 0 16px ;
+    border-bottom: 1px solid  #7A52E0;
+}
+
+.properties-panel .ant-tabs-nav .ant-tabs-tab {
+    color: #eee ;
+    background-color: #321579 ;
+}
+
+.properties-panel .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+    background-color: #5F2FDA ;
+    color: #ffffff ;
+}
+
+.properties-panel .property-component-name-container {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.properties-panel {
+    border-left: 1px solid #4E22BF;
+    box-shadow: -5px 0px 30px 5px  #070311;
+    z-index: 2;
+}
+
+.designer div.designer-sidebar-container {
+    border-right: 1px solid #5F2FDA;
+    box-shadow: 5px 0 30px 5px  #070311;
+    z-index: 2;
+}
+
+div.ant-tabs-tab:hover {
+    color: #eee;
+    background-color: #38188c;
+}
+
+.properties-selector div.ant-tabs-tab-active.ant-tabs-tab {
+    background-color: #444 ;
+}
+
+/*
+v0.0.1
+Simple theme
+*/
+
+.tree-node-children, .tree-title-children {
+    border-left: 2px solid #aaa;
+}
+
+.tree-node-item-wrapper {
+    border-left: 0;
+    border-right: 0;
+    border-width: 2px ;
+}
+
+.tree-node-item-wrapper.active img.view-icon {
+    filter: invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) ;
+}
+
+.tree-node-item-wrapper.active .tree-node-item {
+    background-color: #4E22BF ;
+}
+
+.tree-node-item-wrapper:active, .tree-node-item-wrapper:focus, .tree-node-item-wrapper:hover, .tree-node-item:hover {
+    background-color: #321579;
+    background-image: none;
+    border: 3px 0px solid #333;
+    color: #fff;
+}
+
+div.ant-alert.ant-alert-error.ant-alert-banner.ant-alert-closable.banner {
+    background-color: #222;
+    color: #ffffff;
+}
+
+div.ant-col.ant-form-item-label {
+    color: #ffffff;
+}
+
+div.ant-col.ant-form-item-label label {
+    color: #ffffff;
+}
+
+div.ant-tabs-ink-bar {
+    background-color: #9574E7;
+}
+
+div.ant-tabs-tab-active.ant-tabs-tab {
+    background-color: #5F2FDA;
+    color: #ffffff ;
+}
+
+div.asset-tree-header.designer-sidebar-title {
+    color: #ffffff;
+}
+
+div.banners {
+    background-color: #222;
+}
+
+div.component-gallery-header {
+    color: #ffffff;
+    background-color: #150934;
+}
+
+div.component-gallery-panel {
+    background-color: #150934;
+    border-style: none;
+}
+
+div.designer {
+    background-color: #150934;
+}
+
+div.designer-sidebar-container {
+    background-color: #150934;
+    color: #ffffff;
+}
+
+div.empty-text {
+    color: #000000;
+}
+
+div.gallery-item {
+    color: #ffffff;
+}
+
+div.gallery-item-wrapper, .ant-menu-submenu, .ant-menu-sub, .ant-menu-item {
+    background-color: transparent ;
+}
+
+div.gallery-items {
+    background-color: #240f57;
+    border: none;
+}
+
+.gallery-items {
+    width: auto;
+    padding: 5px 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.invisible-component-bar {
+    background-color: #240f57;
+    border-bottom-width: 1px;
+    border-color: #5F2FDA;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    box-shadow: 5px 0 30px 5px  #070311;
+}
+
+.invisible-component-container:hover {
+    background: #321579;
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid 
+#5F2FDA ;
+    cursor: pointer;
+}
+
+.invisible-component-container:hover .view-icon {
+    filter: brightness(2000%);
+}
+
+.invisible-component-container:hover .view-icon[src="/static/media/viewIconFirebaseDB.124dd0d4.svg"] {
+    filter: brightness(100%);
+}
+
+div.preview-container {
+    background-color: #0E0623;
+}
+
+div.project-nav {
+    background-color: #150934;
+}
+
+div.project-nav-item span {
+    color: #ffffff;
+}
+
+div.project-nav-item.logo-item {
+    background-color: #150934;
+}
+
+div.screen-tab-container {
+    background-color: #1C0C46;
+}
+
+div.title-bar {
+    background-color: #1C0C46;
+    border: 1px solid #401C9C;
+}
+
+div.title.designer-sidebar-title span {
+    color: #ffffff;
+}
+
+div.tree-node-children-wrapper {
+    background-color: #240f57;
+}
+
+div.tree-node-item-wrapper {
+    background-color: #000000 ;
+    border-color: #303030 ;
+    border-style: solid ;
+    border-top-width: 0 ;
+    color: #ffffff ;
+}
+
+div.tree-node-item.project-settings {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-style: none;
+    border-top-width: 0;
+    background-color: #150934;
+}
+
+div.tutorial-panel-container {
+    background-color: #150934;
+}
+
+form.ant-form.ant-form-vertical.properties-panel {
+    background-color: #240f57 ;
+    color: #ffffff ;
+}
+
+.properties-selector .ant-tabs-tab-prev, .properties-selector .ant-tabs-tab-next {
+    display: none;
+}
+
+.properties-selector .ant-tabs-nav-container-scrolling {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+i.anticon.anticon-ellipsis.resize-handle-ellipsis {
+    background-color: #321579;
+    color: #fff;
+    border-top: 1px solid #5F2FDA;
+    border-bottom: 1px solid #5F2FDA;
+}
+
+i.anticon.anticon-ellipsis.resize-handle-ellipsis:hover, i.anticon.anticon-ellipsis.resize-handle-ellipsis:active {
+    background-color: #5F2FDA;
+    -moz-box-shadow: 0 0 8px 2px #5F2FDA;
+    -webkit-box-shadow: 0 0 8px 2px #5F2FDA;
+    box-shadow: 0 0 8px 2px #5F2FDA;
+    z-index: 50;
+}
+
+li.ant-menu-item.ant-menu-item-active {
+    background-color: #000000;
+    border-style: none;
+}
+
+html {
+}
+
+rect.blocklyMainBackground {
+    background-color: #000000 ;
+}
+
+span.ant-alert-message div {
+    color: #ffffff;
+}
+
+span.invisible-component-name {
+    color: #ffffff;
+}
+
+span.properties-component-label {
+    color: #ffffff;
+}
+
+ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline {
+    background-color: #150934;
+    border-style: none;
+}
+
+ul.ant-menu.ant-menu-sub.ant-menu-inline {
+    background-color: #150934 ;
+}
+
+.title-bar .tabs .tab {
+    background-color: #150934;
+    color: #fff;
+    border-color: #7A52E0;
+}
+
+.title-bar .tabs .tab:hover {
+    background-color: #401C9C;
+    color: #fff;
+    border-color: #713Df5;
+}
+
+.gallery-item img:nth-child(2) {
+    border-radius: 25px ;
+}
+
+.title-bar .tab.active {
+    background-color: #5F2FDA;
+    color: #fff;
+    border-color: #713Df5;
+}
+
+.title-bar .tabs .tab.active:hover {
+    background-color: #5F2FDA;
+}
+
+.gallery-item {
+    border: 1px solid #5F2FDA;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    background: #240f57;
+    box-shadow: 0 3px 4px 2px #150934;
+    cursor: pointer;
+}
+
+.blocklyTreeRow:hover, .blocklyTreeLabel:hover {
+    cursor: pointer;
+}
+
+.new-screen-button:hover {
+    box-shadow: 0px 0px 8px 2px #5F2FDA;
+    background: #5F2FDA ;
+    border: 1px solid #5F2FDA;
+}
+
+.new-screen-button {
+    box-shadow: 0 0 6px 1px #150934;
+    border: 1px solid #5F2FDA;
+    background: #240f57;
+}
+
+.anticon.anticon-plus svg {
+    fill: white;
+}
+
+.gallery-item:hover .icon {
+    filter: invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) ;
+}
+
+.ant-tabs-tab-prev-icon-target svg, .ant-tabs-tab-next-icon-target svg {
+    fill: #fff ;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: bold;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.ant-menu-inline .ant-menu-item:after, .ant-menu-vertical-left .ant-menu-item:after, .ant-menu-vertical-right .ant-menu-item:after, .ant-menu-vertical .ant-menu-item:after {
+    border-right: none ;
+}
+
+div.title.designer-sidebar-title {
+    background-color: #150934;
+    color: #ffffff;
+}
+
+div a img {
+    content: url(https://hertforddesign.uk/files/thunk-nav-logo.png);
+}
+
+.gallery-item:hover {
+    box-shadow: 0px 0px 8px 3px #5F2FDA;
+    background: #5F2FDA ;
+    border: 1px solid #5F2FDA;
+}
+
+.ant-menu-sub.ant-menu-inline>.ant-menu-item {
+    background-color: #240f57;
+}
+
+div.ant-menu-submenu-title {
+    background-color: #321579;
+    color: #ffffff;
+    border: 1px solid #5F2FDA;
+    border-bottom: 1px solid #5F2FDA;
+}
+
+.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:before {
+    background: #9574E7 ;
+}
+
+.ant-menu-submenu-inline .ant-menu-submenu-title {
+    margin: 5px 0 0 0;
+    transform: scale(0.95);
+    transition: 0.1s ease-in-out;
+}
+
+.ant-menu-submenu-active .ant-menu-submenu-title, .ant-menu-submenu-open .ant-menu-submenu-title {
+    margin-top: 5px;
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+    margin: 0 16px 0 16px;
+}
+
+/*
+v0.0.2
+*/
+
+ul::-webkit-scrollbar, div::-webkit-scrollbar {
+    display: none;
+    background-color: #150934;
+}
+
+div, ul, nav, body {
+    -ms-overflow-style: none;
+}
+
+.ant-select-focused .ant-select-selection, .ant-select-selection:active, .ant-select-selection:focus {
+    border-color: #5F2FDA;
+    box-shadow: 0px 0px 8px 2px #7A52E0;
+}
+
+.ant-select-selection {
+    background: #321579;
+    color: #fff;
+    border: 1px solid #7A52E0;
+}
+
+.component-gallery-panel .ant-menu-submenu-title {
+    border-bottom: 1px solid #5F2FDA;
+}
+
+
+/*
+v0.0.3
+First commit
+*/
 
 .ant-collapse-content.ant-collapse-content-active {
   background-color: #240f57;
@@ -526,3 +1028,8 @@ ul::-webkit-scrollbar, div::-webkit-scrollbar {
   background-color: #150934;
   display: none;
 }
+		
+/*	
+v0.0.7
+With new phone preview & duplicate CSS
+*/
