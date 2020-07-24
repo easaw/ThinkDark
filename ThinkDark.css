@@ -236,10 +236,10 @@ div.project-nav-item a img {
     background-color: #4E22BF;
     color: #fff !important;
 }
-ant-form-item-children button div {
+.ant-form-item-children button div {
     color: #240f57;
 }
 /*	
-v0.1.22
+v0.1.23
 Corrected box text colour
 */
