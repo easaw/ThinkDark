@@ -1,3 +1,26 @@
+/**
+IF YOU HAVE ANY ISSUES PLEASE CREATE AN ISSUE ON GITHUB: https://github.com/easaw/ThinkDark/issues
+
+1) This theme is to be used with a CSS extension for your Browser. It should only be applied to x.thukable.com/projects/*
+2) This code may be editied but please do not share it on the Thunkable community, please use the instructions on https://github.com/easaw/ThinkDark so everyone has the latest version.
+3) This is the Purple version of ThinkDark for Thunk.
+4) This code only contains CSS. No PHP or malicious code is included.
+5) This CSS may not be included in other projects, including Thunkable X itself, without written permission from https://github.com/easaw/
+
+No details of your project can be seen by the Stylebot Chrome Extension, that has it's own terms and conditions. Stylebot only processes CSS (it should not process JavaScript).
+This CSS is provided with no warranty whatsoever and is not guaranteed to fully work at any time.
+
+Colours:
+#150934
+#240f57
+#321579
+#401C9C
+#4E22BF
+#5F2FDA
+#7A52E0
+#9574E7
+**/
+
 .ant-collapse-content.ant-collapse-content-active {
   background-color: #240f57;
 }
@@ -168,7 +191,7 @@
   filter: brightness(200%);
 }
 
-.invisible-component-container:hover .view-icon[src="/static/media/viewIconFirebaseDB.124dd0d4.svg"] {
+.invisible-component-container:hover .view-icon[src="https://x.thunkable.com/static/media/viewIconFirebaseDB.124dd0d4.svg"] {
   filter: brightness(200%);
 }
 
@@ -281,28 +304,6 @@
 .tree-node-item.project-settings {
   border-radius: 0;
 }
-
-/**
-Colours:
-#150934
-#240f57
-#33157a
-#421b9d
-#5021c0
-#622edc
-#7c51e1
-#9673E7
-
-V2
-#150934
-#240f57
-#321579
-#401C9C
-#4E22BF
-#5F2FDA
-#7A52E0
-#9574E7
-**/
 
 div, ul, nav, body {
   -ms-overflow-style: none;
