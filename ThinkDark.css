@@ -107,8 +107,8 @@ div a img{content:url(https://hertforddesign.uk/files/thunk-nav-logo.png) !impor
 .gallery-item:hover{box-shadow:0 0 8px 3px #5F2FDA !important;background:#5F2FDA !important;border:1px solid #5F2FDA !important;}
 .ant-menu-sub.ant-menu-inline>.ant-menu-item{background-color:#240f57 !important;}
 .ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:before{background:#9574E7  !important;}
-.ant-menu-submenu-inline .ant-menu-submenu-title{margin:5px 0 0 !important;transform:scale(0.95) !important;transition:.1s ease-in-out !important;}
-.ant-menu-submenu-active .ant-menu-submenu-title,.ant-menu-submenu-open .ant-menu-submenu-title{margin-top:5px !important;transform:scale(1) !important;transition:.1s ease-in-out !important;}
+.ant-menu-submenu-inline .ant-menu-submenu-title{margin:5px 0 0 !important;}
+.ant-menu-submenu-active .ant-menu-submenu-title,.ant-menu-submenu-open .ant-menu-submenu-title{margin-top:5px !important;}
 .ant-tabs-nav .ant-tabs-tab{margin:0 16px !important;}
 /*
 v0.0.2
