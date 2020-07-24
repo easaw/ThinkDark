@@ -227,13 +227,16 @@ ul::-webkit-scrollbar,div::-webkit-scrollbar,form::-webkit-scrollbar{background-
     border-bottom: 1px solid #5F2FDA  !important;
     color: #fff  !important;
 }
-
 div.project-nav-item a img {
     background-image: url(https://hertforddesign.uk/files/thunk-nav-logo.png) !important;
     object-position: 0 -500px;
     background-size: contain;
 }
+.ant-popover div, .ant-popover a {
+    background-color: #4E22BF;
+    color: #fff !important;
+}
 /*	
-v0.1.19
-Fixed logo for Firefox
+v0.1.20
+Added Component popover styles
 */
