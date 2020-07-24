@@ -153,29 +153,25 @@ i.anticon.anticon-ellipsis.resize-handle-ellipsis:hover,i.anticon.anticon-ellips
 ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934 !important;margin-left:0 !important;width:315px !important;}
 ul::-webkit-scrollbar,div::-webkit-scrollbar,form::-webkit-scrollbar{background-color:#150934 !important;display:none !important;}
 .properties-panel::-webkit-scrollbar {display: none;}
-.ant-menu-submenu-title{background-color:#321579!important;border:1px solid #5f2fda!important;border-bottom:1px solid #5f2fda!important;color:#fff!important}
-div.project-nav-item a img{background-image:url(https://hertforddesign.uk/files/thunk-nav-logo.png)!important;object-position:0 -500px;background-size:contain}
-button.ant-btn div{color:#240f57!important}
-button.ant-btn div div{border:1px solid #ccc}
-.ant-popover-placement-bottom>.ant-popover-content>.ant-popover-arrow,.ant-popover-placement-bottomLeft>.ant-popover-content>.ant-popover-arrow,.ant-popover-placement-bottomRight>.ant-popover-content>.ant-popover-arrow{border-color:transparent transparent #4e22bf #4e22bf}
-.sketch-picker,.ant-popover-placement-right .ant-popover-inner{background-color:#4e22bf!important}
-.sketch-picker span,.ant-popover a,.ant-popover-placement-right .ant-popover-inner-content, .ant-popover-title{color:#fff!important}
-div.tree-title-children{background-color:#240f57}
-div.empty-text{background-color:#240f57;color:#fff}
-button.ant-btn.action-icon.ant-btn-circle.ant-btn-icon-only{background-color:#401c9c;color:#fff}
-input.ant-input{background-color:#150934;color:#fff}
-button.ant-btn{background-color:#150934;color:#fff}
-button.ant-btn div{color:#fff}
-i.anticon.anticon-down svg{color:#fff}
-i.anticon.anticon-close-circle.reset-button svg{color:#fff;background-color:#150934}
-.anticon.anticon-close-circle.reset-button svg{fill:#fff}
-div.ant-collapse-item{background-color:#150934;color:#fff;border-style:none}
-div.ant-collapse-header{background-color:#150934;color:#fff;padding-left:10px;padding-top:5px;padding-bottom:5px;padding-right:5px}
-div.ant-collapse-item.ant-collapse-item{margin-left:0;padding-left:0;padding-bottom:0}
-div.ant-collapse-content-box{padding-left:10px;padding-bottom:5px;padding-right:10px;padding-top:5px;border-style:solid;border-color:#5f2fda;border-top-width:1px;border-left-width:1px;border-bottom-width:1px;border-right-width:1px}
-span.ant-input-suffix{color:#fff}
+.ant-menu-submenu-title{background-color:#321579 !important;border:1px solid #5f2fda !important;border-bottom:1px solid #5f2fda !important;color:#fff !important;}
+div.project-nav-item a img{background-image:url(https://hertforddesign.uk/files/thunk-nav-logo.png) !important;object-position:0 -500px;background-size:contain;}
+button.ant-btn div{color:#240f57 !important;}button.ant-btn div div{border:1px solid #ccc;}
+.ant-popover-placement-bottom>.ant-popover-content>.ant-popover-arrow,.ant-popover-placement-bottomLeft>.ant-popover-content>.ant-popover-arrow,.ant-popover-placement-bottomRight>.ant-popover-content>.ant-popover-arrow{border-color:transparent transparent #4e22bf #4e22bf;}
+.sketch-picker,.ant-popover-placement-right .ant-popover-inner{background-color:#4e22bf !important;}
+.sketch-picker span,.ant-popover a,.ant-popover-placement-right .ant-popover-inner-content, .ant-popover-title{color:#fff !important;}
+div.tree-title-children {background-color: #240f57;}
+div.empty-text {background-color: #240f57;color: #ffffff;}
+button.ant-btn.action-icon.ant-btn-circle.ant-btn-icon-only {background-color: #401C9C;color: #ffffff;}
+button .ant-dropdown-link div div {}input.ant-input {background-color: #150934;color: #ffffff;}button.ant-btn {background-color: #150934;color: #ffffff;}
+button.ant-btn div {color: #ffffff;}i.anticon.anticon-down svg {color: #ffffff;}
+i.anticon.anticon-close-circle.reset-button svg {color: #ffffff;background-color: #150934;}
+.anticon.anticon-close-circle.reset-button svg {fill: #fff;}
+div.ant-collapse-item {background-color: #150934;color: #ffffff;border-style: none;}
+div.ant-collapse-header {background-color: #150934;color: #ffffff;padding-left: 10px;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;}
+div.ant-collapse-item.ant-collapse-item {margin-left: 0;padding-left: 0;padding-bottom: 0;}
+div.ant-collapse-content-box {padding-left: 10px;padding-bottom: 5px;padding-right: 10px;padding-top: 5px;border-style: solid;border-color: #5F2FDA;border-top-width: 1px;border-left-width: 1px;border-bottom-width: 1px;border-right-width: 1px;}
+span.ant-input-suffix {color: #ffffff;}
 /*	
-v0.1.31
-Removed duplicate rules via codebeautify.org/remove-duplicate-lines
-and minified CSS.
+v0.1.32
+Re-minified with fix for semi-colons.
 */
