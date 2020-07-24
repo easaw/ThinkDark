@@ -227,7 +227,13 @@ ul::-webkit-scrollbar,div::-webkit-scrollbar,form::-webkit-scrollbar{background-
     border-bottom: 1px solid #5F2FDA  !important;
     color: #fff  !important;
 }
+
+div.project-nav-item a img {
+    background-image: url(https://hertforddesign.uk/files/thunk-nav-logo.png) !important;
+    object-position: 0 -500px;
+    background-size: contain;
+}
 /*	
-v0.1.17
-Added !important
+v0.1.19
+Fixed logo for Firefox
 */
