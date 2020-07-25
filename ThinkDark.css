@@ -54,7 +54,6 @@ div.component-gallery-header{color:#fff !important;background-color:#150934 !imp
 div.component-gallery-panel{background-color:#150934 !important;border-style:none !important;}
 div.designer{background-color:#150934 !important;}
 div.designer-sidebar-container{background-color:#150934 !important;color:#fff !important;}
-div.empty-text{color:#000 !important;}
 div.gallery-item{color:#fff !important;}
 div.gallery-item-wrapper,.ant-menu-submenu,.ant-menu-sub,.ant-menu-item{background-color:transparent !important;}
 div.gallery-items{background-color:#240f57 !important;border:none !important;}
@@ -111,10 +110,7 @@ div,ul,nav,body{-ms-overflow-style:none !important;}
 .ant-select-focused .ant-select-selection,.ant-select-selection:active,.ant-select-selection:focus{border-color:#5F2FDA !important;box-shadow:0 0 8px 2px #7A52E0 !important;}
 .ant-select-selection{background:#321579 !important;color:#fff !important;border:1px solid #7A52E0 !important;}
 .component-gallery-panel .ant-menu-submenu-title{border-bottom:1px solid #5F2FDA !important;}
-/*
-v0.0.3
-First commit
-*/.ant-collapse-content.ant-collapse-content-active{background-color:#240f57 !important;}
+.ant-collapse-content.ant-collapse-content-active{background-color:#240f57 !important;}
 .ant-form-item-children div{color:#FFF !important;}
 .ant-menu-submenu-active .ant-menu-submenu-title,.ant-menu-submenu-open .ant-menu-submenu-title{margin-top:5px !important;transition:.1s ease-in-out !important;}
 .ant-menu-submenu-inline .ant-menu-submenu-title{margin:5px 0 0 !important;transition:.1s ease-in-out !important;}
@@ -155,20 +151,20 @@ ul::-webkit-scrollbar,div::-webkit-scrollbar,form::-webkit-scrollbar{background-
 .properties-panel::-webkit-scrollbar {display: none;}
 .ant-menu-submenu-title{background-color:#321579 !important;border:1px solid #5f2fda !important;border-bottom:1px solid #5f2fda !important;color:#fff !important;}
 div.project-nav-item a img{background-image:url(https://hertforddesign.uk/files/thunk-nav-logo.png) !important;object-position:0 -500px;background-size:contain;}
-button.ant-btn div{color:#240f57 !important;}button.ant-btn div div{border:1px solid #ccc;}
+button.ant-btn div{color:#240f57 !important;}
+button.ant-btn div div{border:1px solid #ccc;}
 .ant-popover-placement-bottom>.ant-popover-content>.ant-popover-arrow,.ant-popover-placement-bottomLeft>.ant-popover-content>.ant-popover-arrow,.ant-popover-placement-bottomRight>.ant-popover-content>.ant-popover-arrow{border-color:transparent transparent #4e22bf #4e22bf;}
 .sketch-picker,.ant-popover-placement-right .ant-popover-inner{background-color:#4e22bf !important;}
 .sketch-picker span,.ant-popover a,.ant-popover-placement-right .ant-popover-inner-content, .ant-popover-title{color:#fff !important;}
-div.tree-title-children {background-color: #240f57;}
-div.empty-text {background-color: #240f57;color: #fff !important;}
+div.tree-title-children {background-color: #240f57 !important;}
 button.ant-btn.action-icon.ant-btn-circle.ant-btn-icon-only {background-color: #401C9C;color: #fff !important;}
 input.ant-input {background-color: #150934;color: #fff !important;}
 button.ant-btn {background-color: #150934;color: #fff !important;}
 button.ant-btn div {color: #fff;}i.anticon.anticon-down svg {color: #fff !important;}
 i.anticon.anticon-close-circle.reset-button svg {color: #ffff !important;background-color: #150934 !important;}
 .anticon.anticon-close-circle.reset-button svg {fill: #fff !important;}
-div.ant-collapse-item {background-color: #150934;color: #fff;border-style: none;}
-div.ant-collapse-header {background-color: #150934;color: #fff;padding-left: 10px;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;}
+div.ant-collapse-item {background-color: #150934 !important;color: #fff;border-style: none;}
+div.ant-collapse-header {background-color: #150934 !important;color: #fff !important;padding-left: 10px !important;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;}
 div.ant-collapse-item.ant-collapse-item {margin-left: 0;padding-left: 0;padding-bottom: 0;}
 div.ant-collapse-content-box {padding-left: 10px;padding-bottom: 5px;padding-right: 10px;padding-top: 5px;border-style: solid;border-color: #5F2FDA;border-top-width: 1px;border-left-width: 1px;border-bottom-width: 1px;border-right-width: 1px;}
 span.ant-input-suffix{color:#fff  !important;}
@@ -176,7 +172,7 @@ div.ant-collapse-item{background-color:#321579 !important;}
 div.ant-collapse-header{background-color:#321579  !important;color:#fff !important;padding-left:15px !important;}
 div.ant-collapse-item.ant-collapse-item-active{background-color:#240f57 !important;border-style:none;}
 .tree-node-item.project-settings .view-icon:hover{transform:scale(7.5);z-index:9999;position:fixed;left:100px;}
-div.ant-collapse-content-box{padding-left:10px;padding-top:10px;padding-right:10px;padding-bottom:10px;}
+div.ant-collapse-content-box{padding-left:10px !important;padding-top:10px !important;padding-right:10px !important;padding-bottom:10px !important;}
 .ant-form-item-children button.ant-btn div{color:#fff !important;}
 .ant-form-item-children button.ant-btn:hover div{color:#240f57 !important;}
 .ant-collapse-item .ant-collapse-item-active{padding-left:15px !important;}
@@ -189,7 +185,8 @@ div.ant-form-item-label label{color:#fff !important;}
 .properties-panel .ant-tabs-nav-container .ant-tabs-nav .ant-tabs-tab{width:50%;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab:hover{background-color:#401C9C !important;color:#fff !important;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab-active:hover{background-color:#5F2FDA !important;}
+.assets div.empty-text {background-color: #240f57  !important;color: #fff !important;}
 /*	
-v0.1.35
-Corrected some styles and shortened others
+v0.1.36
+Corrected some styles and added important ones.
 */
