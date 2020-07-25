@@ -160,35 +160,36 @@ button.ant-btn div{color:#240f57 !important;}button.ant-btn div div{border:1px s
 .sketch-picker,.ant-popover-placement-right .ant-popover-inner{background-color:#4e22bf !important;}
 .sketch-picker span,.ant-popover a,.ant-popover-placement-right .ant-popover-inner-content, .ant-popover-title{color:#fff !important;}
 div.tree-title-children {background-color: #240f57;}
-div.empty-text {background-color: #240f57;color: #ffffff;}
-button.ant-btn.action-icon.ant-btn-circle.ant-btn-icon-only {background-color: #401C9C;color: #ffffff;}
-button .ant-dropdown-link div div {}input.ant-input {background-color: #150934;color: #ffffff;}button.ant-btn {background-color: #150934;color: #ffffff;}
-button.ant-btn div {color: #ffffff;}i.anticon.anticon-down svg {color: #ffffff;}
-i.anticon.anticon-close-circle.reset-button svg {color: #ffffff;background-color: #150934;}
-.anticon.anticon-close-circle.reset-button svg {fill: #fff;}
-div.ant-collapse-item {background-color: #150934;color: #ffffff;border-style: none;}
-div.ant-collapse-header {background-color: #150934;color: #ffffff;padding-left: 10px;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;}
+div.empty-text {background-color: #240f57;color: #fff !important;}
+button.ant-btn.action-icon.ant-btn-circle.ant-btn-icon-only {background-color: #401C9C;color: #fff !important;}
+input.ant-input {background-color: #150934;color: #fff !important;}
+button.ant-btn {background-color: #150934;color: #fff !important;}
+button.ant-btn div {color: #fff;}i.anticon.anticon-down svg {color: #fff !important;}
+i.anticon.anticon-close-circle.reset-button svg {color: #ffff !important;background-color: #150934 !important;}
+.anticon.anticon-close-circle.reset-button svg {fill: #fff !important;}
+div.ant-collapse-item {background-color: #150934;color: #fff;border-style: none;}
+div.ant-collapse-header {background-color: #150934;color: #fff;padding-left: 10px;padding-top: 5px;padding-bottom: 5px;padding-right: 5px;}
 div.ant-collapse-item.ant-collapse-item {margin-left: 0;padding-left: 0;padding-bottom: 0;}
 div.ant-collapse-content-box {padding-left: 10px;padding-bottom: 5px;padding-right: 10px;padding-top: 5px;border-style: solid;border-color: #5F2FDA;border-top-width: 1px;border-left-width: 1px;border-bottom-width: 1px;border-right-width: 1px;}
-span.ant-input-suffix{color:#fff;}
+span.ant-input-suffix{color:#fff  !important;}
 div.ant-collapse-item{background-color:#321579 !important;}
 div.ant-collapse-header{background-color:#321579  !important;color:#fff !important;padding-left:15px !important;}
-div.ant-collapse-item.ant-collapse-item-active{background-color:#240f57;border-style:none;}
+div.ant-collapse-item.ant-collapse-item-active{background-color:#240f57 !important;border-style:none;}
 .tree-node-item.project-settings .view-icon:hover{transform:scale(7.5);z-index:9999;position:fixed;left:100px;}
 div.ant-collapse-content-box{padding-left:10px;padding-top:10px;padding-right:10px;padding-bottom:10px;}
-.ant-form-item-children button.ant-btn div{color:#fff;}
-.ant-form-item-children button.ant-btn:hover div{color:#240f57;}
-.ant-collapse-item .ant-collapse-item-active{padding-left:15px;}
-.ant-collapse-item-active .ant-collapse-header{padding-bottom:8px;}
-.properties-selector .ant-tabs-bar{border-bottom:none;}
+.ant-form-item-children button.ant-btn div{color:#fff !important;}
+.ant-form-item-children button.ant-btn:hover div{color:#240f57 !important;}
+.ant-collapse-item .ant-collapse-item-active{padding-left:15px !important;}
+.ant-collapse-item-active .ant-collapse-header{padding-bottom:8px !important;}
+.properties-selector .ant-tabs-bar{border-bottom:none !important;}
 .ant-collapse-borderless>.ant-collapse-item:last-child{padding-left:0;}
-div.ant-form-item-label label{color:#fff;}
+div.ant-form-item-label label{color:#fff !important;}
 .form-item-container{border-left:none;}
 .properties-panel .ant-tabs-nav.ant-tabs-nav-animated{width:100%;}
 .properties-panel .ant-tabs-nav-container .ant-tabs-nav .ant-tabs-tab{width:50%;}
-.properties-panel .ant-tabs-nav .ant-tabs-tab:hover{background-color:#401C9C;color:#fff;}
-.properties-panel .ant-tabs-nav .ant-tabs-tab-active:hover{background-color:#5F2FDA;}
+.properties-panel .ant-tabs-nav .ant-tabs-tab:hover{background-color:#401C9C !important;color:#fff !important;}
+.properties-panel .ant-tabs-nav .ant-tabs-tab-active:hover{background-color:#5F2FDA !important;}
 /*	
-v0.1.34
-Added important to styles
+v0.1.35
+Corrected some styles and shortened others
 */
