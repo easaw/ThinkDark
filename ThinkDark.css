@@ -28,7 +28,7 @@ div.project-editor{background-color:#150934 !important;overflow:auto !important;
 .blocklyTreeRow:not(.blocklyTreeSelected):hover{background-color:#5F2FDA !important;}
 .blocklyTreeSelected .blocklyTreeLabel{color:#fff !important;font-weight:500 !important;}
 .component-tree .caret{color:#cdac46 !important;margin-left:2px !important;}
-.phone-preview{background:url(https://hertforddesign.uk/files/SmartPhone_Bezel_v3_glow.png) no-repeat !important;background-size:contain !important;margin-top:20px !important;}
+.phone-preview{background:url(https://raw.githubusercontent.com/easaw/ThinkDark/master/SmartPhone_Bezel_v5_glow.png) no-repeat !important;background-size:contain !important;margin-top:20px !important;}
 .phone-screen .preview-component{border-width:0 !important;}
 .properties-selector div.ant-tabs-tab{margin:0 0 16px !important;border-bottom:1px solid #7A52E0 !important;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab{color:#eee !important;background-color:#321579 !important;}
@@ -187,6 +187,6 @@ div.ant-form-item-label label{color:#fff !important;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab-active:hover{background-color:#5F2FDA !important;}
 .assets div.empty-text {background-color: #240f57  !important;color: #fff !important;}
 /*	
-v0.1.39
-Corrected versioning
+v0.1.40
+Updated link to Smartphone v5 
 */
