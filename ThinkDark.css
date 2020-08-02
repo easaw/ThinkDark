@@ -186,8 +186,7 @@ div.ant-form-item-label label{color:#fff !important;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab:hover{background-color:#401C9C !important;color:#fff !important;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab-active:hover{background-color:#5F2FDA !important;}
 .assets div.empty-text {background-color: #240f57  !important;color: #fff !important;}
-.phone-preview{transform: none !important;}
 /*	
-v0.1.42
-Added Smartphone image v10
+v0.1.43
+Corrected phone view height
 */
