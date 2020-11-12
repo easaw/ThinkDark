@@ -193,7 +193,20 @@ div.ant-card-head {background-color: #150934 !important;}
 .ant-popover-inner-content a{text-decoration: underline;}
 .ant-modal-body {padding: 0 0 24px;}
 .live-test-message button.ant-btn:hover{background-color: #401C9C;color: #fff !important;transition-duration: 0.1s;}
+.live-test-message button.ant-btn.ant-btn-link{background-color:#4E22BF;border-radius:5px;box-shadow:0 5px 5px 0px rgba(0,0,0,0.3);}
+.live-test-message button.ant-btn.ant-btn-link:hover{color: #fff;background-color: #5F2FDA;box-shadow:0 0 10px 2px #5F2FDA;color: #fff !important;transition-duration: 0.1s;}
+div.ant-modal-content{background-color:#2B1268;}
+.live-test-message.web-companion p,
+.live-test-message.web-companion .ant-btn.info-badge i{color:#fff !important;}
+.live-test-message.web-companion p{margin-bottom: 10px;}
+.live-test-message.web-companion div a{color:#ccc;padding:8px 16px; background-color:#4E22BF;border-radius:5px;box-shadow:0 5px 5px 0px rgba(0,0,0,0.3);}
+.live-test-message.web-companion div a:hover{color: #fff;background-color: #5F2FDA;box-shadow:0 0 10px 2px #5F2FDA;}
+p.live-test-message,.ant-divider-inner-text{color:#fff;}
+.live-test-apps-container .live-test-message a{color:#9574E7;text-decoration: underline !important;}
+.live-test-apps-container .live-test-message a:hover{color: #fff;}
+.live-test-instruction-container img[alt="thunkable companion in a phone"] {background-color: #150934;border-radius: 20px 20px 0 0;}
+.live-test-content-container .live-test-device-content-container {border: 1px solid rgba(255,255,255,.2);}
 /*	
-v0.1.51
-Added hover colour to Live Test popup button
+v0.1.52
+Further styling to live message modal
 */
