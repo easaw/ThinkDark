@@ -1,7 +1,7 @@
 # ThinkDark
 Pure CSS, to enhance and give a dark theme to the Thunkable X Editor. Unofficial.
 
-`Current version v0.1.47`
+`Current version v0.1.50`
 
 #### This code/ styles may be editied for your own use, but **please do not share the CSS on the Thunkable community**, instead, please link here: [https://github.com/easaw/ThinkDark](https://github.com/easaw/ThinkDark/blob/master/ThinkDark.css) so everyone has the latest version.
 
