@@ -97,7 +97,6 @@ ul.ant-menu.ant-menu-sub.ant-menu-inline{background-color:#150934 !important;}
 .ant-tabs-tab-prev-icon-target svg,.ant-tabs-tab-next-icon-target svg{fill:#fff !important;font-size:16px !important;margin-top:8px !important;font-weight:700 !important;width:1.2em !important;height:1.2em !important;}
 .ant-menu-inline .ant-menu-item:after,.ant-menu-vertical-left .ant-menu-item:after,.ant-menu-vertical-right .ant-menu-item:after,.ant-menu-vertical .ant-menu-item:after{border-right:none !important;}
 div.title.designer-sidebar-title{background-color:#150934 !important;color:#fff !important;}
-div a img{content:url(https://hertforddesign.uk/files/thunk-nav-logo.png) !important;}
 .gallery-item:hover{box-shadow:0 0 8px 3px #5F2FDA !important;background:#5F2FDA !important;border:1px solid #5F2FDA !important;}
 .ant-menu-sub.ant-menu-inline>.ant-menu-item{background-color:#240f57 !important;}
 .ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-inline>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-left>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical-right>.ant-menu-submenu-title .ant-menu-submenu-arrow:before,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:after,.ant-menu-submenu-vertical>.ant-menu-submenu-title .ant-menu-submenu-arrow:before{background:#9574E7  !important;}
@@ -193,6 +192,6 @@ div.ant-card-head-title {color: #FFFFFF !important;}
 div.ant-card-head {background-color: #150934 !important;}
 .ant-popover-inner-content a{text-decoration: underline;}
 /*	
-v0.1.47
+v0.1.48
 Added underline for Component Gallery help box links
 */
