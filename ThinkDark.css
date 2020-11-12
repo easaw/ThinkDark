@@ -183,19 +183,19 @@ div.ant-form-item-label label{color:#fff !important;}
 .properties-panel .ant-tabs-nav-container .ant-tabs-nav .ant-tabs-tab{width:50%;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab:hover{background-color:#401C9C !important;color:#fff !important;}
 .properties-panel .ant-tabs-nav .ant-tabs-tab-active:hover{background-color:#5F2FDA !important;}
-.assets div.empty-text {background-color: #240f57  !important;color: #fff !important;}
-.ant-btn.disabled, .ant-btn[disabled]{color: #150934 !important;}
-.ant-switch-checked {background-color: #1AD66C;}
-div.app-properties {background-color: #240f57;}
+.assets div.empty-text {background-color:#240f57  !important;color:#fff !important;}
+.ant-btn.disabled, .ant-btn[disabled]{color:#150934 !important;}
+.ant-switch-checked {background-color:#1AD66C;}
+div.app-properties {background-color:#240f57;}
 div.ant-card.ant-card-bordered {background-color: #321579 !important;}
-div.ant-card-head-title {color: #FFFFFF !important;}
-div.ant-card-head {background-color: #150934 !important;}
+div.ant-card-head-title {color:#FFFFFF !important;}
+div.ant-card-head {background-color:#150934 !important;}
 .ant-popover-inner-content a{text-decoration: underline;}
-.ant-modal-body .ant-modal-body{padding: 0 0 24px;box-shadow: 0px 0px 30px 5px #000;}
-span.ant-modal-close-x i{color: #fff;}
-.live-test-message button.ant-btn:hover{background-color: #401C9C;color: #fff !important;transition-duration: 0.1s;}
-.live-test-message button.ant-btn.ant-btn-link{background-color:#4E22BF;border-radius:5px;box-shadow:0 5px 5px 0px rgba(0,0,0,0.3);}
-.live-test-message button.ant-btn.ant-btn-link:hover{color: #fff;background-color: #5F2FDA;box-shadow:0 0 10px 2px #5F2FDA;color: #fff !important;transition-duration: 0.1s;}
+.ant-modal-body .ant-modal-body{padding:0 0 24px;box-shadow: 0 0 30px 5px #000;}
+span.ant-modal-close-x i{color:#fff;}
+.live-test-message button.ant-btn:hover{background-color:#401C9C;color:#fff !important;transition-duration:0.1s;}
+.live-test-message button.ant-btn.ant-btn-link{background-color:#4E22BF;border-radius:5px;box-shadow:0 5px 5px 0 rgba(0,0,0,0.3);}
+.live-test-message button.ant-btn.ant-btn-link:hover{color: #fff;background-color:#5F2FDA;box-shadow:0 0 10px 2px #5F2FDA;color:#fff !important;transition-duration:0.1s;}
 div.ant-modal-content{background-color:#2B1268;}
 .live-test-message.web-companion p,.live-test-message.web-companion .ant-btn.info-badge i{color:#fff !important;}
 .live-test-message.web-companion p{margin-bottom: 10px;}
@@ -203,11 +203,13 @@ div.ant-modal-content{background-color:#2B1268;}
 .live-test-message.web-companion div a:hover{color: #fff;background-color: #5F2FDA;box-shadow:0 0 10px 2px #5F2FDA;}
 p.live-test-message,.ant-divider-inner-text{color:#fff;}
 .live-test-apps-container .live-test-message a{color:#a581ff;text-decoration: underline !important;}
-.live-test-apps-container .live-test-message a:hover{color: #fff;}
-.live-test-instruction-container img[alt="thunkable companion in a phone"] {background-color: #150934;border-radius: 20px 20px 0 0;}
-.live-test-content-container .live-test-device-content-container {border: 1px solid rgba(255,255,255,.2);}
-.ant-col.live-test-device-container>p{font-size: 16px;}
+.live-test-apps-container .live-test-message a:hover{color:#fff;}
+.live-test-instruction-container img[alt="thunkable companion in a phone"]{background-color: #150934;border-radius: 20px 20px 0 0;}
+.live-test-content-container .live-test-device-content-container{border:1px solid rgba(255,255,255,.2);}
+.ant-col.live-test-device-container>p{font-size:16px;}
+.ant-list-item-meta-title{color: #fff;}
+.ant-modal-header{color: #fff !important;background: #240f57;}
 /*	
-v0.1.53
-Further styling to live message modal (2)
+v0.1.54
+Styling for general modals
 */
