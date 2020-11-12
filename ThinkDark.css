@@ -191,7 +191,9 @@ div.ant-card.ant-card-bordered {background-color: #321579 !important;}
 div.ant-card-head-title {color: #FFFFFF !important;}
 div.ant-card-head {background-color: #150934 !important;}
 .ant-popover-inner-content a{text-decoration: underline;}
+.ant-modal-body {padding: 0 0 24px;}
+.live-test-message button.ant-btn:hover{background-color: #401C9C;color: #fff !important;transition-duration: 0.1s;}
 /*	
-v0.1.50
-Changed version number to ensure update continuity
+v0.1.51
+Added hover colour to Live Test popup button
 */
