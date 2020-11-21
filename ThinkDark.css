@@ -169,7 +169,7 @@ span.ant-input-suffix{color:#fff  !important;}
 div.ant-collapse-item{background-color:#321579 !important;}
 div.ant-collapse-header{background-color:#321579  !important;color:#fff !important;padding-left:15px !important;}
 div.ant-collapse-item.ant-collapse-item-active{background-color:#240f57 !important;border-style:none;}
-.tree-node-item.project-settings .view-icon:hover{transform:scale(7.5);z-index:9999;position:fixed;left:100px;}
+.tree-node-item.project-settings .view-icon:hover{transform:scale(2);z-index:9999;position:fixed;left:45px;width:50px;height:50px;}
 div.ant-collapse-content-box{padding-left:10px !important;padding-top:10px !important;padding-right:10px !important;padding-bottom:10px !important;}
 .ant-form-item-children button.ant-btn div{color:#fff !important;}
 .ant-form-item-children button.ant-btn:hover div{color:#240f57 !important;}
@@ -209,11 +209,14 @@ p.live-test-message,.ant-divider-inner-text{color:#fff;}
 .ant-col.live-test-device-container>p{font-size:16px;}
 .ant-list-item-meta-title{color: #fff;}
 .ant-modal-header{color: #fff !important;background: #240f57;}
-#rcDialogTitle0 #title,#rcDialogTitle0 i{color: #FFFFFF !important;}
+#rcDialogTitle0 #title,#rcDialogTitle0 i, #rcDialogTitle1{color: #FFFFFF !important;}
 #rcDialogTitle0 i{padding:3px !important;background: #240f57 !important;border: 1px solid #5F2FDA !important;box-shadow: 0 3px 6px 1px #150934 !important;border-radius: 4px;}
 #rcDialogTitle0 i:hover{background: #5F2FDA !important;box-shadow: 0 0 8px 2px #5F2FDA !important;}
 .components .empty-text{color:#401C9C !important;font-weight:500;}
+.blocklyTreeRow:hover img.toolboxAddIcon, .blocklyTreeRow:hover img.gearIcon{filter:invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) !important;}
+.ant-modal-body button.ant-btn{border-color: #5f2fda !important;}
+.ant-modal-body button.ant-btn:hover{background-color: #5f2fda !important;}
 /*	
-v0.1.56
-Updated text for "Invisible Components" drag & drop box
+v0.1.57
+New "Components in Block Editor" feature: Each row's icon changes to white when hovered.
 */
