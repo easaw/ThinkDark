@@ -186,7 +186,6 @@ div.ant-form-item-label label{color:#fff !important;}
 .assets div.empty-text {background-color:#240f57  !important;color:#fff !important;}
 .ant-btn.disabled, .ant-btn[disabled]{color:#150934 !important;}
 .ant-switch-checked {background-color:#1AD66C;}
-div.app-properties {background-color:#240f57;}
 div.ant-card.ant-card-bordered {background-color: #321579 !important;}
 div.ant-card-head-title {color:#FFFFFF !important;}
 div.ant-card-head {background-color:#150934 !important;}
@@ -207,9 +206,9 @@ p.live-test-message,.ant-divider-inner-text{color:#fff;}
 .live-test-instruction-container img[alt="thunkable companion in a phone"]{background-color: #150934;border-radius: 20px 20px 0 0;}
 .live-test-content-container .live-test-device-content-container{border:1px solid rgba(255,255,255,.2);}
 .ant-col.live-test-device-container>p{font-size:16px;}
-.ant-list-item-meta-title{color: #fff;}
-.ant-modal-header{color: #fff !important;background: #240f57;}
-#rcDialogTitle0 #title,#rcDialogTitle0 i, #rcDialogTitle1{color: #FFFFFF !important;}
+.ant-list-item-meta-title,.ant-modal-title,.ant-modal-header{color:#fff !important;}
+div.app-properties,.ant-modal-header {background-color:#240f57;}
+#rcDialogTitle0 #title,#rcDialogTitle0 i,#rcDialogTitle1,#rcDialogTitle2,#rcDialogTitle3,#rcDialogTitle4,#rcDialogTitle5{color:#fff !important;}
 #rcDialogTitle0 i{padding:3px !important;background: #240f57 !important;border: 1px solid #5F2FDA !important;box-shadow: 0 3px 6px 1px #150934 !important;border-radius: 4px;}
 #rcDialogTitle0 i:hover{background: #5F2FDA !important;box-shadow: 0 0 8px 2px #5F2FDA !important;}
 .components .empty-text{color:#401C9C !important;font-weight:500;}
@@ -217,6 +216,6 @@ p.live-test-message,.ant-divider-inner-text{color:#fff;}
 .ant-modal-body button.ant-btn{border-color: #5f2fda !important;}
 .ant-modal-body button.ant-btn:hover{background-color: #5f2fda !important;}
 /*	
-v0.1.57
-New "Components in Block Editor" feature: Each row's icon changes to white when hovered.
+v0.1.58
+Improved colour style for modal title
 */
