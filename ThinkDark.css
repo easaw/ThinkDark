@@ -212,7 +212,8 @@ p.live-test-message,.ant-divider-inner-text{color:#fff;}
 #rcDialogTitle0 #title,#rcDialogTitle0 i{color: #FFFFFF !important;}
 #rcDialogTitle0 i{padding:3px !important;background: #240f57 !important;border: 1px solid #5F2FDA !important;box-shadow: 0 3px 6px 1px #150934 !important;border-radius: 4px;}
 #rcDialogTitle0 i:hover{background: #5F2FDA !important;box-shadow: 0 0 8px 2px #5F2FDA !important;}
+.components .empty-text{color:#401C9C !important;font-weight:500;}
 /*	
-v0.1.55
-Updates for new User Interface modal box (title)
+v0.1.56
+Updated text for "Invisible Components" drag & drop box
 */
