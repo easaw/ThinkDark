@@ -233,11 +233,11 @@ div.app-properties,.ant-modal-header {background-color:#240f57;}
 .ant-dropdown-link button:hover i.reset-button svg{fill:red!important;background:none;}
 .ant-dropdown-link.ant-popover-open i.anticon.anticon-down svg{color: #fff !important;}
 .ant-modal-confirm-title, .ant-modal-confirm-content{color:#fff;}
-.ant-modal-confirm-body{color:#ffee00;}
-.ant-dropdown-link.ant-popover-open .ant-btn{background:#150934;}
-.ant-dropdown-link.ant-popover-open .ant-btn:hover div{color:#fff;}
-.ant-dropdown-link.ant-popover-open i.reset-button:hover svg{fill:red!important;}
+.ant-modal-confirm-body{color:#ffee00 !important;}
+.ant-dropdown-link.ant-popover-open .ant-btn{background:#150934 !important;}
+.ant-dropdown-link.ant-popover-open .ant-btn:hover div{color:#fff !important;}
+.ant-dropdown-link.ant-popover-open i.reset-button:hover svg{fill:red !important;}
 /*	
-v0.1.61
-Added styles for modal text and icon colours. Also improved the background properties selector dropdown and hover button styles.
+v0.1.63
+Added important to background properties selector dropdown and hover button styles.
 */
