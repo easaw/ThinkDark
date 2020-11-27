@@ -226,7 +226,18 @@ div.app-properties,.ant-modal-header {background-color:#240f57;}
 .preview-view-controllers div.hand img{padding:0!important;margin:2px}
 .view-controller-set>div:nth-child(1) img{padding:0!important;margin:4px}.preview-view-controllers div img{border-radius:4px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:box-shadow .2s}
 .preview-view-controllers div i:hover svg,.preview-view-controllers div.hand:hover,.view-controller-set>div:hover:nth-child(1){background:#5f2fda!important;border:1px solid #5f2fda!important;box-shadow:0 0 8px 2px #5f2fda!important}
+.component-action-button-container button:hover{filter: invert(100%) brightness(2000%) contrast(100%) saturate(0%) hue-rotate(180deg) !important;}
+.ant-modal-confirm-title, .ant-modal-confirm-content{color:#fff;}
+.ant-modal-confirm-body i{color:#ffee00;}
+.ant-dropdown-link i.anticon.anticon-down svg {color: #321579 !important;}
+.ant-dropdown-link button:hover i.reset-button svg{fill:red!important;background:none;}
+.ant-dropdown-link.ant-popover-open i.anticon.anticon-down svg{color: #fff !important;}
+.ant-modal-confirm-title, .ant-modal-confirm-content{color:#fff;}
+.ant-modal-confirm-body{color:#ffee00;}
+.ant-dropdown-link.ant-popover-open .ant-btn{background:#150934;}
+.ant-dropdown-link.ant-popover-open .ant-btn:hover div{color:#fff;}
+.ant-dropdown-link.ant-popover-open i.reset-button:hover svg{fill:red!important;}
 /*	
-v0.1.60
-Added styles for new Drag & Drop Designer
+v0.1.61
+Added styles for modal text and icon colours. Also improved the background properties selector dropdown and hover button styles.
 */
