@@ -1,8 +1,10 @@
+### PLEASE ONLY USE THIS BRANCH IF YOU UNDERSTAND CSS, AND ACCEPT THAT THIS 'COMPRESSED' VERSION MIGHT BE BROKEN. IF UNSURE, PLEASE USE THE MASTER BRANCH HERE: https://github.com/easaw/ThinkDark
+
 # ThinkDark
 Pure CSS, to enhance and give a dark theme to the Thunkable X Editor. Unofficial.
 <br>**Instructions below.**
 
-`Current version v0.1.58`
+`Current version v0.1.63`
 
 #### This code/ styles may be editied for your own use, but **please do not share the CSS on the Thunkable community**, instead, please link here: [https://github.com/easaw/ThinkDark](https://github.com/easaw/ThinkDark/blob/master/ThinkDark.css) so everyone has the latest version.
 
